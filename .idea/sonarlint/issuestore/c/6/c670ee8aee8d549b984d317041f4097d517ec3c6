@@ -1,0 +1,8 @@
+
+V
+squid:S106*"9Replace this use of System.out or System.err by a logger.(§Εϋϊ8“Λ€σ-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(χ‰ξƒ8ΐ—ώς-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ΎΥγώÿÿÿÿ8κιώς-
+‘squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(«ίν8κιώς-
+fsquid:UselessImportCheck"6Remove this unused import 'dangolawski.models.Player'.(ϊΑοΈϋÿÿÿÿ8ξÒ¦ώς-
+jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·ξ™ωÿÿÿÿ8Ò£ύς-
