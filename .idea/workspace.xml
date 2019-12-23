@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -116,7 +113,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
