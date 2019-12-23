@@ -8,7 +8,7 @@ public class Player {
 
     private int clusterNumber;
 
-    public String playerName;
+    private String playerName;
 
     private float overall_rating;
 
@@ -96,11 +96,15 @@ public class Player {
 
     // SETTERS //
 
-    public void setClusterNumber(int clusterNumber) {
+    public void setClusterNumber(Integer clusterNumber) {
         if(clusterNumber < 1 || clusterNumber > Globals.numberOfClusters){
             throw new IllegalArgumentException("invalid cluster number");
         }
         this.clusterNumber = clusterNumber;
+    }
+
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
     }
 
     public void setoverall_rating(String overallRating) {
@@ -120,13 +124,18 @@ public class Player {
     public void setattacking_work_rate(String attacking_work_rate) {
         if(!Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) && !attacking_work_rate.equals("None"))
             throw new IllegalArgumentException("attacking_work_rate should be between 1 and 3");
-        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate);
+        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
     }
 
     public void setdefensive_work_rate(String defensive_work_rate) {
-        if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
+        if(defensive_work_rate.length() == 1) {
+            int value = Integer.parseInt(defensive_work_rate);
+            if(value < 1 || value > 3) this.defensive_work_rate = -1;
+            else this.defensive_work_rate = Integer.parseInt(defensive_work_rate);
+        }
+        else if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
             throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
-        this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate);
+        else this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
     }
 
     public void setcrossing(String crossing) {
@@ -281,6 +290,10 @@ public class Player {
 
     public int getClusterNumber() {
         return clusterNumber;
+    }
+
+    public String getPlayerName() {
+        return playerName;
     }
 
     public float getoverall_rating() {

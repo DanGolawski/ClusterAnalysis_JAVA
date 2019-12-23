@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Globals {
 
-    public static String dataFilePath = "C:/Users/User/Desktop/ClusterAnalysis_JAVA/src/dangolawski/players202.csv";
+    public static String dataFilePath = "src/dangolawski/players202.csv";
 
     public static final String[] forbiddenValues = {"player_name", "birthday", "p_id", "date"};
 
