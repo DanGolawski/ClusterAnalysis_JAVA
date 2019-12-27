@@ -1,5 +1,6 @@
 package dangolawski.services;
 
+import dangolawski.models.Cluster;
 import dangolawski.models.Player;
 
 import java.io.BufferedReader;
@@ -16,7 +17,7 @@ public class DataFactory {
 
     private String[] columnNames;
 
-    public LinkedHashSet<Object> readDataAndCreatePlayers() throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
+    public LinkedHashSet<Player> readDataAndCreatePlayers() throws IOException, ClassNotFoundException, IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         LinkedHashSet<Object> playerSet = new LinkedHashSet<>();
         forbiddenColumns = Arrays.asList(Globals.forbiddenValues);
         BufferedReader csvReader = new BufferedReader(new FileReader(Globals.dataFilePath));
@@ -27,7 +28,9 @@ public class DataFactory {
             playerSet.add(createNewPlayer(data));
         }
         csvReader.close();
-        return playerSet;
+        getDesiredPlayerAttributes();
+        return castObjectsToPlayers(playerSet);
+//        return playerSet;
     }
 
     /**
@@ -47,7 +50,6 @@ public class DataFactory {
         // with single parameter, return void
         for(int i = 0; i < columnNames.length; i++) {
             if(forbiddenColumns.contains(columnNames[i])) {continue; }
-            if(columnNames[i].equals("defensive_work_rate")) System.out.println(values[i]);
             Method method = player.getClass().getMethod("set" + columnNames[i], String.class);
             method.invoke(player, values[i]); // pass arg
         }
@@ -82,5 +84,27 @@ public class DataFactory {
         }
         splitedData[elementIndex++] = dataElement.toString();
         return splitedData;
+    }
+
+    private void getDesiredPlayerAttributes() {
+        Globals.playerAttributes = new ArrayList<>();
+        for(String attribute : columnNames) {
+            if(!forbiddenColumns.contains(attribute)) Globals.playerAttributes.add(attribute);
+        }
+    }
+
+    public static Set<Cluster> createClusters() {
+        Set<Cluster> clusters = new HashSet<>();
+        for(int i = 0; i < Globals.numberOfClusters; i++) {
+            clusters.add(new Cluster(i+1));
+        }
+
+        return clusters;
+    }
+
+    public LinkedHashSet<Player> castObjectsToPlayers(LinkedHashSet<Object> objects) {
+        LinkedHashSet<Player> players = new LinkedHashSet<>();
+        for(Object object : objects) players.add(Player.class.cast(object));
+        return players;
     }
 }

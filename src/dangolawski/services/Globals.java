@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Globals {
 
-    public static String dataFilePath = "src/dangolawski/players202.csv";
+    public static String dataFilePath = "src/dangolawski/players202_test.csv";
 
     public static final String[] forbiddenValues = {"player_name", "birthday", "p_id", "date"};
 
@@ -13,4 +13,6 @@ public class Globals {
     public static final String[] nominalValues = {"low", "medium", "high"};
 
     public static final String[] footNominalValues = {"left", "right"};
+
+    public static ArrayList<String> playerAttributes;
 }

@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ;squid:S2386"Make this member "protected".(þ™î°8¡õé€ó-
 "squid:ClassVariableVisibilityCheck"XMake dataFilePath a static final constant or non-public and provide accessors if needed.(Ýœ¥8…«ýò-
 ]squid:S1118":Add a private constructor to hide the implicit public one.(ì‰É×øÿÿÿÿ8ãßÑðò-
@@ -7,3 +8,15 @@
 Psquid:S1444"2Make this "public static dataFilePath" field final(Ýœ¥8…«ýò-
 @squid:S2386	"Make this member "protected".(íáîÓþÿÿÿÿ8ãßÑðò-
 ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘îÖï8àôÖðò-
+=======
+Tsquid:S1444"6Make this "public static playerAttributes" field final(žáÆþ8…óüœó-
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘îÖï8àôÖðò-
+Psquid:S1444"2Make this "public static dataFilePath" field final(Ýœ¥8…«ýò-
+]squid:S1118":Add a private constructor to hide the implicit public one.(ì‰É×øÿÿÿÿ8ãßÑðò-
+‘"squid:ClassVariableVisibilityCheck"\Make playerAttributes a static final constant or non-public and provide accessors if needed.(žáÆþ8…óüœó-
+™squid:S1319"{The type of the "playerAttributes" object should be an interface such as "List" rather than the implementation "ArrayList".(žáÆþ8…óüœó-
+;squid:S2386"Make this member "protected".(õñ·­8¡õé€ó-
+"squid:ClassVariableVisibilityCheck"XMake dataFilePath a static final constant or non-public and provide accessors if needed.(Ýœ¥8…«ýò-
+;squid:S2386"Make this member "protected".(þ™î°8¡õé€ó-
+@squid:S2386	"Make this member "protected".(íáîÓþÿÿÿÿ8ãßÑðò-
+>>>>>>> b4cfe2a9ffefeaa8c3274e8ca789f4df282f242e

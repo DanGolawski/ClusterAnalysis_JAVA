@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/ClusteringService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Cluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Cluster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/DataFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/DataFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +32,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -25,29 +39,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1VNQ89ePiOLj9HMei15OacZG7Tx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577061178459" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="create.test.in.the.same.root" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577125146664" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="dangolawski.services" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\ClusterAnalysis_JAVA\src\dangolawski" />
     </key>
@@ -81,6 +84,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -100,26 +113,14 @@
       <workItem from="1577039022213" duration="170000" />
       <workItem from="1577039224370" duration="14066000" />
       <workItem from="1577061286486" duration="115000" />
+      <workItem from="1577131636428" duration="3516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18225000" />
+    <option name="totallyTimeSpent" value="30526000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

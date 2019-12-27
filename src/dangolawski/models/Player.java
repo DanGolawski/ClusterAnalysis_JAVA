@@ -14,11 +14,11 @@ public class Player {
 
     private float potential;
 
-    private int preferred_foot; // 0-left, 1-right
+    private float preferred_foot; // 0-left, 1-right
 
-    private int attacking_work_rate; // 1-low, 2-medium, 3-high
+    private float attacking_work_rate; // 1-low, 2-medium, 3-high
 
-    private int defensive_work_rate; // 1-low, 2-medium, 3-high
+    private float defensive_work_rate; // 1-low, 2-medium, 3-high
 
     private float crossing;
 
@@ -88,9 +88,9 @@ public class Player {
 
     private float height;
 
-    private int weight;
+    private float weight;
 
-    private int age;
+    private float age;
 
 
 
@@ -116,26 +116,34 @@ public class Player {
     }
 
     public void setpreferred_foot(String preferred_foot) {
-        if(!preferred_foot.equals("left") && !preferred_foot.equals("right") && !preferred_foot.equals("None"))
+        if (preferred_foot.equals("left") || preferred_foot.equals("right") || preferred_foot.equals("None")) {
+            this.preferred_foot = preferred_foot.equals("None") ? -1 : Arrays.asList(Globals.footNominalValues).indexOf(preferred_foot);
+        } else if (preferred_foot.equals("1.0") || preferred_foot.equals("0.0")) {
+            this.preferred_foot = Float.parseFloat(preferred_foot);
+        } else {
             throw new IllegalArgumentException("prefferedRightFoot should be 1 or 0");
-        this.preferred_foot = preferred_foot.equals("None") ? -1 : Arrays.asList(Globals.footNominalValues).indexOf(preferred_foot);
+        }
     }
 
     public void setattacking_work_rate(String attacking_work_rate) {
-        if(!Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) && !attacking_work_rate.equals("None"))
+        if(Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) || attacking_work_rate.equals("None"))
+            this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
+        else if (Arrays.asList("1.0", "2.0", "3.0").contains(attacking_work_rate))
+            this.attacking_work_rate = Float.parseFloat(attacking_work_rate);
+        else
             throw new IllegalArgumentException("attacking_work_rate should be between 1 and 3");
-        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
     }
 
     public void setdefensive_work_rate(String defensive_work_rate) {
         if(defensive_work_rate.length() == 1) {
-            int value = Integer.parseInt(defensive_work_rate);
+            float value = Float.parseFloat(defensive_work_rate);
             if(value < 1 || value > 3) this.defensive_work_rate = -1;
-            else this.defensive_work_rate = Integer.parseInt(defensive_work_rate);
+            else this.defensive_work_rate = Float.parseFloat(defensive_work_rate);
         }
-        else if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
-            throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
-        else this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
+        else if(Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) || defensive_work_rate.equals("None"))
+            this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
+        else if (defensive_work_rate.matches("[0-9].0")) Float.parseFloat(defensive_work_rate);
+        else throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
     }
 
     public void setcrossing(String crossing) {
@@ -275,11 +283,11 @@ public class Player {
     }
 
     public void setweight(String weight) {
-        this.weight = weight.equals("None") ? -1 : Integer.parseInt(weight);
+        this.weight = weight.equals("None") ? -1 : Float.parseFloat(weight);
     }
 
     public void setage(String age) {
-        this.age = age.equals("None") ? -1 : Integer.parseInt(age);
+        this.age = age.equals("None") ? -1 : Float.parseFloat(age);
     }
 
 
@@ -304,15 +312,15 @@ public class Player {
         return potential;
     }
 
-    public int getpreferred_foot() {
+    public float getpreferred_foot() {
         return preferred_foot;
     }
 
-    public int getattacking_work_rate() {
+    public float getattacking_work_rate() {
         return attacking_work_rate;
     }
 
-    public int getdefensive_work_rate() {
+    public float getdefensive_work_rate() {
         return defensive_work_rate;
     }
 
@@ -396,7 +404,7 @@ public class Player {
         return aggression;
     }
 
-    public float getInterceptions() {
+    public float getinterceptions() {
         return interceptions;
     }
 
@@ -444,11 +452,11 @@ public class Player {
         return height;
     }
 
-    public int getweight() {
+    public float getweight() {
         return weight;
     }
 
-    public int getage() {
+    public float getage() {
         return age;
     }
 
