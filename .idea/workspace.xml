@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/META-INF/ClusterAnalysis_JAVA.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Cluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Cluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/DataFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/DataFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +26,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="1037">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Cluster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="3927">
               <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
             </state>
           </provider>
@@ -259,11 +237,12 @@
       <workItem from="1577039224370" duration="14066000" />
       <workItem from="1577061286486" duration="115000" />
       <workItem from="1577131636428" duration="3516000" />
+      <workItem from="1577447749700" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30526000" />
+    <option name="totallyTimeSpent" value="30550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -345,6 +324,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Cluster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3927">
+          <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/Globals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -352,16 +338,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Cluster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
+        <state relative-caret-position="1037">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />

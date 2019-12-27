@@ -1,11 +1,11 @@
 
-Tsquid:S2696Z"6Make the enclosing method "static" or remove this set.(¬–¡…8 ¼Œó-
-^squid:S1854U"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8¬â·›ó-
-osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãşÿÿÿÿ8¬â·›ó-
-˜squid:S1319i"uThe type of the "objects" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âó-
-‚squid:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôÑÌğøÿÿÿÿ8¬â·›ó-
-nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(õîÚşÿÿÿÿ8•Âó-
-–squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ˆÍÙùÿÿÿÿ8¬â·›ó-
 –squid:S1319i"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âó-
-jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ò£ˆıò-
+‚squid:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôÑÌğøÿÿÿÿ8¬â·›ó-
+–squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ˆÍÙùÿÿÿÿ8¬â·›ó-
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(õîÚşÿÿÿÿ8•Âó-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãşÿÿÿÿ8¬â·›ó-
 ;squid:S2119/"Save and re-use this "Random".(¼İÅf8¬â·›ó-
+jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ò£ˆıò-
+˜squid:S1319i"uThe type of the "objects" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âó-
+^squid:S1854U"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8¬â·›ó-
+Tsquid:S2696Z"6Make the enclosing method "static" or remove this set.(¬–¡…8 ¼Œó-
