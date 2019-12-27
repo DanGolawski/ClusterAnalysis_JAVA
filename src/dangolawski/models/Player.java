@@ -8,17 +8,17 @@ public class Player {
 
     private int clusterNumber;
 
-    public String playerName;
+    private String playerName;
 
     private float overall_rating;
 
     private float potential;
 
-    private int preferred_foot; // 0-left, 1-right
+    private float preferred_foot; // 0-left, 1-right
 
-    private int attacking_work_rate; // 1-low, 2-medium, 3-high
+    private float attacking_work_rate; // 1-low, 2-medium, 3-high
 
-    private int defensive_work_rate; // 1-low, 2-medium, 3-high
+    private float defensive_work_rate; // 1-low, 2-medium, 3-high
 
     private float crossing;
 
@@ -88,19 +88,23 @@ public class Player {
 
     private float height;
 
-    private int weight;
+    private float weight;
 
-    private int age;
+    private float age;
 
 
 
     // SETTERS //
 
-    public void setClusterNumber(int clusterNumber) {
+    public void setClusterNumber(Integer clusterNumber) {
         if(clusterNumber < 1 || clusterNumber > Globals.numberOfClusters){
             throw new IllegalArgumentException("invalid cluster number");
         }
         this.clusterNumber = clusterNumber;
+    }
+
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
     }
 
     public void setoverall_rating(String overallRating) {
@@ -120,13 +124,18 @@ public class Player {
     public void setattacking_work_rate(String attacking_work_rate) {
         if(!Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) && !attacking_work_rate.equals("None"))
             throw new IllegalArgumentException("attacking_work_rate should be between 1 and 3");
-        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate);
+        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
     }
 
     public void setdefensive_work_rate(String defensive_work_rate) {
-        if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
+        if(defensive_work_rate.length() == 1) {
+            float value = Float.parseFloat(defensive_work_rate);
+            if(value < 1 || value > 3) this.defensive_work_rate = -1;
+            else this.defensive_work_rate = Float.parseFloat(defensive_work_rate);
+        }
+        else if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
             throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
-        this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate);
+        else this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
     }
 
     public void setcrossing(String crossing) {
@@ -266,11 +275,11 @@ public class Player {
     }
 
     public void setweight(String weight) {
-        this.weight = weight.equals("None") ? -1 : Integer.parseInt(weight);
+        this.weight = weight.equals("None") ? -1 : Float.parseFloat(weight);
     }
 
     public void setage(String age) {
-        this.age = age.equals("None") ? -1 : Integer.parseInt(age);
+        this.age = age.equals("None") ? -1 : Float.parseFloat(age);
     }
 
 
@@ -283,6 +292,10 @@ public class Player {
         return clusterNumber;
     }
 
+    public String getPlayerName() {
+        return playerName;
+    }
+
     public float getoverall_rating() {
         return overall_rating;
     }
@@ -291,15 +304,15 @@ public class Player {
         return potential;
     }
 
-    public int getpreferred_foot() {
+    public float getpreferred_foot() {
         return preferred_foot;
     }
 
-    public int getattacking_work_rate() {
+    public float getattacking_work_rate() {
         return attacking_work_rate;
     }
 
-    public int getdefensive_work_rate() {
+    public float getdefensive_work_rate() {
         return defensive_work_rate;
     }
 
@@ -383,7 +396,7 @@ public class Player {
         return aggression;
     }
 
-    public float getInterceptions() {
+    public float getinterceptions() {
         return interceptions;
     }
 
@@ -431,11 +444,11 @@ public class Player {
         return height;
     }
 
-    public int getweight() {
+    public float getweight() {
         return weight;
     }
 
-    public int getage() {
+    public float getage() {
         return age;
     }
 

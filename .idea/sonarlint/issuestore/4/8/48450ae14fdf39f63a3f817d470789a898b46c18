@@ -1,0 +1,7 @@
+
+gsquid:S3518'"DMake sure "playersCounter" can't be zero before doing this division.(†´¯Ãþÿÿÿÿ8ÃîÊžó-
+[squid:UselessImportCheck"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8š¦Þœó-
+Rsquid:S1172<"/Remove this unused method parameter "clusters".(Ñ¡âÎþÿÿÿÿ8Ñ»¢¥ó-
+˜squid:S1319"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ôå¦Êûÿÿÿÿ8›“’ó-
+Msquid:S00108=")Either remove or fill this block of code.(”Ú·çøÿÿÿÿ8ÀÚ©¥ó-
+Nsquid:S1481="+Remove this unused "player" local variable.(”Ú·çøÿÿÿÿ8ÀÚ©¥ó-

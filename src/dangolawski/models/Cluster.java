@@ -2,25 +2,29 @@ package dangolawski.models;
 
 public class Cluster {
 
-    private int number;
+    // TODO sprawdzic czy preffered foot, atacking, defence moga zostac intami
 
-    private float overallRatingMean;
+    private int clusterNumber;
+
+    private float sumOfSquaredDeviations;
+
+    private float overall_ratingMean;
 
     private float potentialMean;
 
-    private int preferredRightFootMean;
+    private float preferred_footMean;
 
-    private int attackingWorkRateMean;
+    private float attacking_work_rateMean;
 
-    private int defensiveWorkRateMean;
+    private float defensive_work_rateMean;
 
     private float crossingMean;
 
     private float finishingMean;
 
-    private float headingAccuracyMean;
+    private float heading_accuracyMean;
 
-    private float shortPassingMean;
+    private float short_passingMean;
 
     private float volleysMean;
 
@@ -28,21 +32,23 @@ public class Cluster {
 
     private float curveMean;
 
-    private float freeKickAccuracyMean;
+    private float free_kick_accuracyMean;
 
-    private float longPassingMean;
+    private float long_passingMean;
 
-    private float ballControllMean;
+    private float ball_controlMean;
 
     private float accelerationMean;
 
-    private float sprintSpeedMean;
+    private float sprint_speedMean;
+
+    private float agilityMean;
 
     private float reactionsMean;
 
     private float balanceMean;
 
-    private float shotPowerMean;
+    private float shot_powerMean;
 
     private float jumpingMean;
 
@@ -50,11 +56,11 @@ public class Cluster {
 
     private float strengthMean;
 
-    private float longShotsMean;
+    private float long_shotsMean;
 
-    private float agressionMean;
+    private float aggressionMean;
 
-    private float interceptionMean;
+    private float interceptionsMean;
 
     private float positioningMean;
 
@@ -64,348 +70,370 @@ public class Cluster {
 
     private float markingMean;
 
-    private float standingTackleMean;
+    private float standing_tackleMean;
 
-    private float gkDivingMean;
+    private float sliding_tackleMean;
 
-    private float gkHandlingMean;
+    private float gk_divingMean;
 
-    private float gkKickingMean;
+    private float gk_handlingMean;
 
-    private float gkPositioningMean;
+    private float gk_kickingMean;
 
-    private float gkReflexesMean;
+    private float gk_positioningMean;
+
+    private float gk_reflexesMean;
 
     private float heightMean;
 
-    private int weightMean;
+    private float weightMean;
 
-    private int ageMean;
+    private float ageMean;
 
+    // CONSTRUCTORS //
+
+    public Cluster(int clusterNumber) {
+        this.clusterNumber = clusterNumber;
+    }
 
     // SETTERS //
 
-    public void setNumber(int number) {
-        this.number = number;
+    public void setoverall_ratingMean(Float overall_rating) {
+        this.overall_ratingMean = overall_rating;
     }
 
-    public void setOverallRatingMean(float overallRatingMean) {
-        this.overallRatingMean = overallRatingMean;
+    public void setSumOfSquaredDeviations(float sumOfSquaredDeviations){ this.sumOfSquaredDeviations = sumOfSquaredDeviations; }
+
+    public void setpotentialMean(Float potential) {
+        this.potentialMean = potential;
     }
 
-    public void setPotentialMean(float potentialMean) {
-        this.potentialMean = potentialMean;
+    public void setpreferred_footMean(Float preferred_foot) {
+        this.preferred_footMean = preferred_foot;
     }
 
-    public void setPreferredRightFootMean(int preferredRightFootMean) {
-        this.preferredRightFootMean = preferredRightFootMean;
+    public void setattacking_work_rateMean(Float attacking_work_rate) {
+        this.attacking_work_rateMean = attacking_work_rate;
     }
 
-    public void setAttackingWorkRateMean(int attackingWorkRateMean) {
-        this.attackingWorkRateMean = attackingWorkRateMean;
+    public void setdefensive_work_rateMean(Float defensive_work_rate) {
+        this.defensive_work_rateMean = defensive_work_rate;
     }
 
-    public void setDefensiveWorkRateMean(int defensiveWorkRateMean) {
-        this.defensiveWorkRateMean = defensiveWorkRateMean;
+    public void setcrossingMean(Float crossing) {
+        this.crossingMean = crossing;
     }
 
-    public void setCrossingMean(float crossingMean) {
-        this.crossingMean = crossingMean;
+    public void setfinishingMean(Float finishing) {
+        this.finishingMean = finishing;
     }
 
-    public void setFinishingMean(float finishingMean) {
-        this.finishingMean = finishingMean;
+    public void setheading_accuracyMean(Float heading_accuracy) {
+        this.heading_accuracyMean = heading_accuracy;
     }
 
-    public void setHeadingAccuracyMean(float headingAccuracyMean) {
-        this.headingAccuracyMean = headingAccuracyMean;
+    public void setshort_passingMean(Float short_passing) {
+        this.short_passingMean = short_passing;
     }
 
-    public void setShortPassingMean(float shortPassingMean) {
-        this.shortPassingMean = shortPassingMean;
+    public void setvolleysMean(Float volleys) {
+        this.volleysMean = volleys;
     }
 
-    public void setVolleysMean(float volleysMean) {
-        this.volleysMean = volleysMean;
+    public void setdribblingMean(Float dribbling) {
+        this.dribblingMean = dribbling;
     }
 
-    public void setDribblingMean(float dribblingMean) {
-        this.dribblingMean = dribblingMean;
+    public void setcurveMean(Float curve) {
+        this.curveMean = curve;
     }
 
-    public void setCurveMean(float curveMean) {
-        this.curveMean = curveMean;
+    public void setfree_kick_accuracyMean(Float free_kick_accuracy) {
+        this.free_kick_accuracyMean = free_kick_accuracy;
     }
 
-    public void setFreeKickAccuracyMean(float freeKickAccuracyMean) {
-        this.freeKickAccuracyMean = freeKickAccuracyMean;
+    public void setlong_passingMean(Float long_passing) {
+        this.long_passingMean = long_passing;
     }
 
-    public void setLongPassingMean(float longPassingMean) {
-        this.longPassingMean = longPassingMean;
+    public void setball_controlMean(Float ball_control) {
+        this.ball_controlMean = ball_control;
     }
 
-    public void setBallControllMean(float ballControllMean) {
-        this.ballControllMean = ballControllMean;
+    public void setaccelerationMean(Float acceleration) {
+        this.accelerationMean = acceleration;
     }
 
-    public void setAccelerationMean(float accelerationMean) {
-        this.accelerationMean = accelerationMean;
+    public void setsprint_speedMean(Float sprint_speed) {
+        this.sprint_speedMean = sprint_speed;
     }
 
-    public void setSprintSpeedMean(float sprintSpeedMean) {
-        this.sprintSpeedMean = sprintSpeedMean;
+    public void setagilityMean(Float agility) {
+        this.agilityMean = agility;
     }
 
-    public void setReactionsMean(float reactionsMean) {
-        this.reactionsMean = reactionsMean;
+    public void setreactionsMean(Float reactions) {
+        this.reactionsMean = reactions;
     }
 
-    public void setBalanceMean(float balanceMean) {
-        this.balanceMean = balanceMean;
+    public void setbalanceMean(Float balance) {
+        this.balanceMean = balance;
     }
 
-    public void setShotPowerMean(float shotPowerMean) {
-        this.shotPowerMean = shotPowerMean;
+    public void setshot_powerMean(Float shot_power) {
+        this.shot_powerMean = shot_power;
     }
 
-    public void setJumpingMean(float jumpingMean) {
-        this.jumpingMean = jumpingMean;
+    public void setjumpingMean(Float jumping) {
+        this.jumpingMean = jumping;
     }
 
-    public void setStaminaMean(float staminaMean) {
-        this.staminaMean = staminaMean;
+    public void setstaminaMean(Float stamina) {
+        this.staminaMean = stamina;
     }
 
-    public void setStrengthMean(float strengthMean) {
-        this.strengthMean = strengthMean;
+    public void setstrengthMean(Float strength) {
+        this.strengthMean = strength;
     }
 
-    public void setLongShotsMean(float longShotsMean) {
-        this.longShotsMean = longShotsMean;
+    public void setlong_shotsMean(Float long_shots) {
+        this.long_shotsMean = long_shots;
     }
 
-    public void setAgressionMean(float agressionMean) {
-        this.agressionMean = agressionMean;
+    public void setaggressionMean(Float aggression) {
+        this.aggressionMean = aggression;
     }
 
-    public void setInterceptionMean(float interceptionMean) {
-        this.interceptionMean = interceptionMean;
+    public void setinterceptionsMean(Float interceptions) {
+        this.interceptionsMean = interceptions;
     }
 
-    public void setPositioningMean(float positioningMean) {
-        this.positioningMean = positioningMean;
+    public void setpositioningMean(Float positioning) {
+        this.positioningMean = positioning;
     }
 
-    public void setVisionMean(float visionMean) {
-        this.visionMean = visionMean;
+    public void setvisionMean(Float vision) {
+        this.visionMean = vision;
     }
 
-    public void setPenaltiesMean(float penaltiesMean) {
-        this.penaltiesMean = penaltiesMean;
+    public void setpenaltiesMean(Float penalties) {
+        this.penaltiesMean = penalties;
     }
 
-    public void setMarkingMean(float markingMean) {
-        this.markingMean = markingMean;
+    public void setmarkingMean(Float marking) {
+        this.markingMean = marking;
     }
 
-    public void setStandingTackleMean(float standingTackleMean) {
-        this.standingTackleMean = standingTackleMean;
+    public void setstanding_tackleMean(Float standing_tackle) {
+        this.standing_tackleMean = standing_tackle;
     }
 
-    public void setGkDivingMean(float gkDivingMean) {
-        this.gkDivingMean = gkDivingMean;
+    public void setsliding_tackleMean(Float sliding_tackle) {
+        this.sliding_tackleMean = sliding_tackle;
     }
 
-    public void setGkHandlingMean(float gkHandlingMean) {
-        this.gkHandlingMean = gkHandlingMean;
+    public void setgk_divingMean(Float gk_diving) {
+        this.gk_divingMean = gk_diving;
     }
 
-    public void setGkKickingMean(float gkKickingMean) {
-        this.gkKickingMean = gkKickingMean;
+    public void setgk_handlingMean(Float gk_handling) {
+        this.gk_handlingMean = gk_handling;
     }
 
-    public void setGkPositioningMean(float gkPositioningMean) {
-        this.gkPositioningMean = gkPositioningMean;
+    public void setgk_kickingMean(Float gk_kicking) {
+        this.gk_kickingMean = gk_kicking;
     }
 
-    public void setGkReflexesMean(float gkReflexesMean) {
-        this.gkReflexesMean = gkReflexesMean;
+    public void setgk_positioningMean(Float gk_positioning) {
+        this.gk_positioningMean = gk_positioning;
     }
 
-    public void setHeightMean(float heightMean) {
-        this.heightMean = heightMean;
+    public void setgk_reflexesMean(Float gk_reflexes) {
+        this.gk_reflexesMean = gk_reflexes;
     }
 
-    public void setWeightMean(int weightMean) {
-        this.weightMean = weightMean;
+    public void setheightMean(Float height) {
+        this.heightMean = height;
     }
 
-    public void setAgeMean(int ageMean) {
-        this.ageMean = ageMean;
+    public void setweightMean(Float weight) {
+        this.weightMean = weight;
     }
 
+    public void setageMean(Float age) {
+        this.ageMean = age;
+    }
 
     // GETTERS //
 
 
-    public int getNumber() {
-        return number;
+    public int getClusterNumber() {
+        return clusterNumber;
     }
 
-    public float getOverallRatingMean() {
-        return overallRatingMean;
+    public float getSumOfSquaredDeviations() { return sumOfSquaredDeviations; }
+
+    public float getoverall_ratingMean() {
+        return overall_ratingMean;
     }
 
-    public float getPotentialMean() {
+    public float getpotentialMean() {
         return potentialMean;
     }
 
-    public int getPreferredRightFootMean() {
-        return preferredRightFootMean;
+    public float getpreferred_footMean() {
+        return preferred_footMean;
     }
 
-    public int getAttackingWorkRateMean() {
-        return attackingWorkRateMean;
+    public float getattacking_work_rateMean() {
+        return attacking_work_rateMean;
     }
 
-    public int getDefensiveWorkRateMean() {
-        return defensiveWorkRateMean;
+    public float getdefensive_work_rateMean() {
+        return defensive_work_rateMean;
     }
 
-    public float getCrossingMean() {
+    public float getcrossingMean() {
         return crossingMean;
     }
 
-    public float getFinishingMean() {
+    public float getfinishingMean() {
         return finishingMean;
     }
 
-    public float getHeadingAccuracyMean() {
-        return headingAccuracyMean;
+    public float getheading_accuracyMean() {
+        return heading_accuracyMean;
     }
 
-    public float getShortPassingMean() {
-        return shortPassingMean;
+    public float getshort_passingMean() {
+        return short_passingMean;
     }
 
-    public float getVolleysMean() {
+    public float getvolleysMean() {
         return volleysMean;
     }
 
-    public float getDribblingMean() {
+    public float getdribblingMean() {
         return dribblingMean;
     }
 
-    public float getCurveMean() {
+    public float getcurveMean() {
         return curveMean;
     }
 
-    public float getFreeKickAccuracyMean() {
-        return freeKickAccuracyMean;
+    public float getfree_kick_accuracyMean() {
+        return free_kick_accuracyMean;
     }
 
-    public float getLongPassingMean() {
-        return longPassingMean;
+    public float getlong_passingMean() {
+        return long_passingMean;
     }
 
-    public float getBallControllMean() {
-        return ballControllMean;
+    public float getball_controlMean() {
+        return ball_controlMean;
     }
 
-    public float getAccelerationMean() {
+    public float getaccelerationMean() {
         return accelerationMean;
     }
 
-    public float getSprintSpeedMean() {
-        return sprintSpeedMean;
+    public float getsprint_speedMean() {
+        return sprint_speedMean;
     }
 
-    public float getReactionsMean() {
+    public float getagilityMean() {
+        return agilityMean;
+    }
+
+    public float getreactionsMean() {
         return reactionsMean;
     }
 
-    public float getBalanceMean() {
+    public float getbalanceMean() {
         return balanceMean;
     }
 
-    public float getShotPowerMean() {
-        return shotPowerMean;
+    public float getshot_powerMean() {
+        return shot_powerMean;
     }
 
-    public float getJumpingMean() {
+    public float getjumpingMean() {
         return jumpingMean;
     }
 
-    public float getStaminaMean() {
+    public float getstaminaMean() {
         return staminaMean;
     }
 
-    public float getStrengthMean() {
+    public float getstrengthMean() {
         return strengthMean;
     }
 
-    public float getLongShotsMean() {
-        return longShotsMean;
+    public float getlong_shotsMean() {
+        return long_shotsMean;
     }
 
-    public float getAgressionMean() {
-        return agressionMean;
+    public float getaggressionMean() {
+        return aggressionMean;
     }
 
-    public float getInterceptionMean() {
-        return interceptionMean;
+    public float getinterceptionsMean() {
+        return interceptionsMean;
     }
 
-    public float getPositioningMean() {
+    public float getpositioningMean() {
         return positioningMean;
     }
 
-    public float getVisionMean() {
+    public float getvisionMean() {
         return visionMean;
     }
 
-    public float getPenaltiesMean() {
+    public float getpenaltiesMean() {
         return penaltiesMean;
     }
 
-    public float getMarkingMean() {
+    public float getmarkingMean() {
         return markingMean;
     }
 
-    public float getStandingTackleMean() {
-        return standingTackleMean;
+    public float getstanding_tackleMean() {
+        return standing_tackleMean;
     }
 
-    public float getGkDivingMean() {
-        return gkDivingMean;
+    public float getsliding_tackleMean() {
+        return sliding_tackleMean;
     }
 
-    public float getGkHandlingMean() {
-        return gkHandlingMean;
+    public float getgk_divingMean() {
+        return gk_divingMean;
     }
 
-    public float getGkKickingMean() {
-        return gkKickingMean;
+    public float getgk_handlingMean() {
+        return gk_handlingMean;
     }
 
-    public float getGkPositioningMean() {
-        return gkPositioningMean;
+    public float getgk_kickingMean() {
+        return gk_kickingMean;
     }
 
-    public float getGkReflexesMean() {
-        return gkReflexesMean;
+    public float getgk_positioningMean() {
+        return gk_positioningMean;
     }
 
-    public float getHeightMean() {
+    public float getgk_reflexesMean() {
+        return gk_reflexesMean;
+    }
+
+    public float getheightMean() {
         return heightMean;
     }
 
-    public int getWeightMean() {
+    public float getweightMean() {
         return weightMean;
     }
 
-    public int getAgeMean() {
+    public float getageMean() {
         return ageMean;
     }
 }
