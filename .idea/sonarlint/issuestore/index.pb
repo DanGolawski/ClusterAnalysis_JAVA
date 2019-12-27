@@ -11,3 +11,5 @@ Y
 )src/dangolawski/services/DataFactory.java,c\6\c670ee8aee8d549b984d317041f4097d517ec3c6
 S
 #src/dangolawski/models/Cluster.java,5\f\5ffb52bc33a65ff62af8358a17c3dacc649cc48c
+_
+/src/dangolawski/services/ClusteringService.java,4\8\48450ae14fdf39f63a3f817d470789a898b46c18

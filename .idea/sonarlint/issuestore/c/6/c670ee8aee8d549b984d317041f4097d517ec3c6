@@ -1,10 +1,10 @@
 
-^squid:S1854S"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8ıºÕ’ó-
 jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ò£ˆıò-
-‚squid:S1149F"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôÑÌğøÿÿÿÿ8Óè•’ó-
-U
-squid:S1062"9Replace this use of System.out or System.err by a logger.(ïÌ‘t8è“Ú“ó-
-osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãşÿÿÿÿ8êéşò-
+;squid:S2119,"Save and re-use this "Random".(¼İÅf8³¶ˆ“ó-
 bsquid:CallToDeprecatedMethod."3Remove this use of "newInstance"; it is deprecated.(Åİ±8«ÈÆó-
 ‘squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(«ßí8êéşò-
-;squid:S2119,"Save and re-use this "Random".(¼İÅf8³¶ˆ“ó-
+‚squid:S1149F"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôÑÌğøÿÿÿÿ8Óè•’ó-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãşÿÿÿÿ8êéşò-
+U
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ïÌ‘t8è“Ú“ó-
+^squid:S1854S"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8ıºÕ’ó-
