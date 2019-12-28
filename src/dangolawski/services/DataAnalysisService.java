@@ -8,7 +8,7 @@ import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class ResultsDisplayService {
+public class DataAnalysisService {
 
     public void displayResults(LinkedHashSet<Player> players, Set<Cluster> clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         getNumberOfElementsForEveryCluster(players, clusters);
@@ -16,6 +16,10 @@ public class ResultsDisplayService {
         calculateRadiusForEveryCluster(players, clusters);
         calculatePrefferedFootRightMean(players, clusters);
         calculateCharacteristicsForAttributes(players, clusters);
+        calculateDistancesBetweenClusters(clusters);
+        calculateMembership(clusters, players);
+        System.out.println("\n" + "Liczba wszystkich obserwacji : " + players.size());
+        calculateStandardDeviationForAllObjects(players);
     }
 
     // 1
@@ -42,7 +46,7 @@ public class ResultsDisplayService {
         }
     }
 
-    //3
+    // 3
     // 123.96,  115.50,  98.78,  105.31
     private void calculateRadiusForEveryCluster(LinkedHashSet<Player> players, Set<Cluster> clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         System.out.println("\n" + "Promienie skupienia :");
@@ -50,7 +54,7 @@ public class ResultsDisplayService {
             System.out.println("Skupienie " + cluster.getClusterNumber() + " : " + getTheLargestDistance(cluster, players));
     }
 
-    //4
+    // 4
     // 0.76,  0,78,  0.69,  0,87
     private void calculatePrefferedFootRightMean(LinkedHashSet<Player> players, Set<Cluster> clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         System.out.println("\n" + "Wartości średnie dla preffered_right_foot :");
@@ -59,7 +63,7 @@ public class ResultsDisplayService {
         }
     }
 
-    //5
+    // 5
     // 26.53,  41.0,  17.0,  4.33 // 26.91,  40.0,  17.0,  4.67 // 29.25,  44.0,  17.0,  5.03 // 27.93,  42.0,  18.0,  4.15
     // 163.57,  164.10,  184.04,  173.63
     // 179.88,  179.85,  188.88,  184.98
@@ -90,12 +94,85 @@ public class ResultsDisplayService {
         }
     }
 
-    //6
+    // 6
+    // 77.86,   250,55
+    private void calculateDistancesBetweenClusters(Set<Cluster> clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+        Cluster[] nearestClusters = new Cluster[2];
+        Cluster[] furthestForEachOther = new Cluster[2];
+        boolean first = true;
+        float minDistance = 0;
+        float maxDistance = 0;
+        float currDistance;
+        for (Cluster cluster1 : clusters) {
+            for (Cluster cluster2 : clusters) {
+                if (cluster1.equals(cluster2)) continue;
+                currDistance = calculateDistance(cluster1, cluster2);
+                if (currDistance < minDistance || first) {
+                    minDistance = currDistance;
+                    nearestClusters[0] = cluster1;
+                    nearestClusters[1] = cluster2;
+                }
+                if (currDistance > maxDistance || first) {
+                    maxDistance = currDistance;
+                    furthestForEachOther[0] = cluster1;
+                    furthestForEachOther[1] = cluster2;
+                }
+                first = false;
+            }
+        }
+
+        System.out.println("\n" + "Odległości między skupieniami");
+        System.out.print("Najbliżej położone względem siebie : ");
+        System.out.print("Skupienie " + nearestClusters[0].getClusterNumber() + " --- ");
+        System.out.println("Skupienie " + nearestClusters[1].getClusterNumber() + "   odleglosc =  " + minDistance);
+        System.out.print("Najdalej położone względem siebie : ");
+        System.out.print("Skupienie " + furthestForEachOther[0].getClusterNumber() + " --- ");
+        System.out.println("Skupienie " + furthestForEachOther[1].getClusterNumber() + "   odleglosc =  " + maxDistance);
+    }
+
+    // 7
     //
-    
+    private void calculateMembership(Set<Cluster> clusters, LinkedHashSet<Player> players) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+        System.out.println("\n"+"Przynależność obserwacji do skupienia :");
+        for (Cluster cluster : clusters) {
+            Player furthestPlayer = getFurthestPlayer(cluster, players);
+            System.out.print("Najdalej wysuniety obiekt dla Skupienia " + cluster.getClusterNumber() + " : ");
+            System.out.print(furthestPlayer.getPlayerName() + ",   odleglosc od srodka=" + calculateDistance(furthestPlayer, cluster));
+            System.out.println(",   odleglosc od srodka zmiennej Overall-Rating="+Math.sqrt(calculateSquaredDifference(furthestPlayer, cluster, "overall_rating")));
+        }
+        for (Cluster cluster : clusters) {
+            Player nearestPlayer = getNearestPlayer(cluster, players);
+            System.out.print("Najbliżej wysuniety obiekt dla Skupienia " + cluster.getClusterNumber() + " : ");
+            System.out.print(nearestPlayer.getPlayerName() + ",   odleglosc od srodka=" + calculateDistance(nearestPlayer, cluster));
+            System.out.println(",   odleglosc od srodka zmiennej Overall-Rating="+Math.sqrt(calculateSquaredDifference(nearestPlayer, cluster, "overall_rating")));
+        }
+    }
 
+    // wyznacza obiekt skupienia wysunięty najdalej od środka podanego skupienia
+    private Player getFurthestPlayer(Cluster cluster, LinkedHashSet<Player> players) {
+        return players.stream().filter(player -> player.getClusterNumber() == cluster.getClusterNumber())
+                .max(Comparator.comparingDouble(player -> {
+                    try {
+                        return calculateDistance(player, cluster);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    return 0;
+                })).get();
+    }
 
-
+    // wyznacza obiekt skupienia wysunięty najbliżej od środka podanego skupienia
+    private Player getNearestPlayer(Cluster cluster, LinkedHashSet<Player> players) {
+        return players.stream().filter(player -> player.getClusterNumber() == cluster.getClusterNumber())
+                .min(Comparator.comparingDouble(player -> {
+                    try {
+                        return calculateDistance(player, cluster);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                    return 0;
+                })).get();
+    }
 
 
     // wylicza odchylenie standardowe dla podanego atrybutu na podstawie obiektow należących do podanego skupienia
@@ -158,9 +235,9 @@ public class ResultsDisplayService {
     // wyznacza obiekt skupienia wysunięty najdalej od podanego skupienia i zwraca odległość
     private float getTheLargestDistance(Cluster cluster, LinkedHashSet<Player> players) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
         Player farPlayer = players.stream().filter(player -> player.getClusterNumber() == cluster.getClusterNumber())
-                .max(Comparator.comparingDouble(item -> {
+                .max(Comparator.comparingDouble(player -> {
             try {
-                return calculateDistance(item, cluster);
+                return calculateDistance(player, cluster);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -174,16 +251,29 @@ public class ResultsDisplayService {
         return (float) Math.sqrt(calculateSumOfSquaredDifferencesOfAllAttributes(player, cluster));
     }
 
+    // wylicza odległość euklidesową dla dwóch skupienia
+    private float calculateDistance(Cluster cluster1, Cluster cluster2) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+        return (float) Math.sqrt(calculateSumOfSquaredDifferencesOfAllAttributes(cluster1, cluster2));
+    }
+
     // wylicza odchylenie standardowe na podstawie sumy i liczby elementów
     private float calculateStandardDeviation(float sumOfSquares, int elemCounter) {
         return (float) Math.sqrt(sumOfSquares / elemCounter);
     }
 
-    // wylicza sumę kwadratów różnic wszystkich atrybutów
+    // wylicza sumę kwadratów różnic wszystkich atrybutów dla obiektu i skupienia
     private float calculateSumOfSquaredDifferencesOfAllAttributes(Player player, Cluster cluster) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         float sum = 0;
         for (String attr : Globals.playerAttributes)
             sum += Math.pow(getValueByGetter(player, attr) - getValueByGetter(cluster, attr+"Mean"), 2);
+        return sum;
+    }
+
+    // wylicza sumę kwadratów różnic wszystkich atrybutów dla dwóch skupień
+    private float calculateSumOfSquaredDifferencesOfAllAttributes(Cluster cluster1, Cluster cluster2) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        float sum = 0;
+        for (String attr : Globals.playerAttributes)
+            sum += Math.pow(getValueByGetter(cluster1, attr+"Mean") - getValueByGetter(cluster2, attr+"Mean"), 2);
         return sum;
     }
 
@@ -195,5 +285,15 @@ public class ResultsDisplayService {
     // zwraca liczbę obiektów należących do danego skupienia
     private int getNumberOfElementsForParticularCluster(Cluster cluster, Set<Player> players) {
         return (int) players.stream().filter(player -> player.getClusterNumber() == cluster.getClusterNumber()).count();
+    }
+
+    // 8
+    public void calculateStandardDeviationForAllObjects(LinkedHashSet<Player> players) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+        float sum = 0;
+        int numberOfElements = players.size();
+        for (Player player : players) {
+            sum += calculateSumOfSquaredDifferencesOfAllAttributes(player, Globals.mainCluster);
+        }
+        System.out.println("\n" + "Odchylenie standardowe całego zbioru danych : " + Math.sqrt(sum / numberOfElements));
     }
 }

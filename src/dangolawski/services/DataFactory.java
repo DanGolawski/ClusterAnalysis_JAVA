@@ -107,4 +107,19 @@ public class DataFactory {
         for(Object object : objects) players.add(Player.class.cast(object));
         return players;
     }
+
+    public void createMainCluster(LinkedHashSet<Player> players) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Globals.mainCluster = new Cluster(1);
+        for (String attribute : Globals.playerAttributes) {
+            float elementCounter = 0;
+            float sum = 0;
+            for (Player player : players) {
+                float value = (float) player.getClass().getMethod("get"+attribute).invoke(player);
+                if (value == -1) continue;
+                elementCounter += 1;
+                sum += value;
+            }
+            Globals.mainCluster.getClass().getMethod("set"+attribute+"Mean", Float.class).invoke(Globals.mainCluster, sum/elementCounter);
+        }
+    }
 }

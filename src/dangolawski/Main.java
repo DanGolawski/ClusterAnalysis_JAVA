@@ -4,8 +4,8 @@ import dangolawski.models.Cluster;
 import dangolawski.models.Player;
 import dangolawski.services.ClusteringService;
 import dangolawski.services.DataFactory;
-import dangolawski.services.Globals;
-import dangolawski.services.ResultsDisplayService;
+import dangolawski.services.DataAnalysisService;
+import dangolawski.services.DataFixService;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -19,12 +19,15 @@ public class Main {
     public static void main(String[] args) throws IllegalAccessException, InvocationTargetException, IOException, InstantiationException, NoSuchMethodException, ClassNotFoundException {
         DataFactory dataFactory = new DataFactory();
         ClusteringService clusteringService = new ClusteringService();
-        ResultsDisplayService resultsDisplayService = new ResultsDisplayService();
+        DataAnalysisService dataAnalysisService = new DataAnalysisService();
+        DataFixService dataFixService = new DataFixService();
 
         LinkedHashSet<Player> players = dataFactory.readDataAndCreatePlayers();
+        dataFactory.createMainCluster(players);
+        dataFixService.fixData(players);
         Set<Cluster> clusters = DataFactory.createClusters();
         LinkedHashSet<Player> clusteredPlayers = clusteringService.makeClusters(players, clusters);
-        resultsDisplayService.displayResults(clusteredPlayers, clusters);
+        dataAnalysisService.displayResults(clusteredPlayers, clusters);
     }
 
     private static void display(Player player) {

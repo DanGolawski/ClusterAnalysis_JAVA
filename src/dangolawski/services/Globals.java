@@ -1,5 +1,7 @@
 package dangolawski.services;
 
+import dangolawski.models.Cluster;
+
 import java.util.ArrayList;
 
 public class Globals {
@@ -15,4 +17,6 @@ public class Globals {
     public static final String[] footNominalValues = {"left", "right"};
 
     public static ArrayList<String> playerAttributes;
+
+    public static Cluster mainCluster;
 }

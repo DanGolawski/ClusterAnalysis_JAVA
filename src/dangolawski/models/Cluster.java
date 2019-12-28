@@ -2,8 +2,6 @@ package dangolawski.models;
 
 public class Cluster {
 
-    // TODO sprawdzic czy preffered foot, atacking, defence moga zostac intami
-
     private int clusterNumber;
 
     private float sumOfSquaredDeviations;
