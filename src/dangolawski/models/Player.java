@@ -116,15 +116,22 @@ public class Player {
     }
 
     public void setpreferred_foot(String preferred_foot) {
-        if(!preferred_foot.equals("left") && !preferred_foot.equals("right") && !preferred_foot.equals("None"))
+        if (preferred_foot.equals("left") || preferred_foot.equals("right") || preferred_foot.equals("None")) {
+            this.preferred_foot = preferred_foot.equals("None") ? -1 : Arrays.asList(Globals.footNominalValues).indexOf(preferred_foot);
+        } else if (preferred_foot.equals("1.0") || preferred_foot.equals("0.0")) {
+            this.preferred_foot = Float.parseFloat(preferred_foot);
+        } else {
             throw new IllegalArgumentException("prefferedRightFoot should be 1 or 0");
-        this.preferred_foot = preferred_foot.equals("None") ? -1 : Arrays.asList(Globals.footNominalValues).indexOf(preferred_foot);
+        }
     }
 
     public void setattacking_work_rate(String attacking_work_rate) {
-        if(!Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) && !attacking_work_rate.equals("None"))
+        if(Arrays.asList(Globals.nominalValues).contains(attacking_work_rate) || attacking_work_rate.equals("None"))
+            this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
+        else if (Arrays.asList("1.0", "2.0", "3.0").contains(attacking_work_rate))
+            this.attacking_work_rate = Float.parseFloat(attacking_work_rate);
+        else
             throw new IllegalArgumentException("attacking_work_rate should be between 1 and 3");
-        this.attacking_work_rate = attacking_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(attacking_work_rate)+1;
     }
 
     public void setdefensive_work_rate(String defensive_work_rate) {
@@ -133,9 +140,10 @@ public class Player {
             if(value < 1 || value > 3) this.defensive_work_rate = -1;
             else this.defensive_work_rate = Float.parseFloat(defensive_work_rate);
         }
-        else if(!Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) && !defensive_work_rate.equals("None"))
-            throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
-        else this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
+        else if(Arrays.asList(Globals.nominalValues).contains(defensive_work_rate) || defensive_work_rate.equals("None"))
+            this.defensive_work_rate = defensive_work_rate.equals("None") ? -1 : Arrays.asList(Globals.nominalValues).indexOf(defensive_work_rate)+1;
+        else if (defensive_work_rate.matches("[0-9].0")) Float.parseFloat(defensive_work_rate);
+        else throw new IllegalArgumentException("defensive_work_rate should be between 1 and 3");
     }
 
     public void setcrossing(String crossing) {

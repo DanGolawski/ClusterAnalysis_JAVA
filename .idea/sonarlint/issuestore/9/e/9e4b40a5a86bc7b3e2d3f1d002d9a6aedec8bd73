@@ -1,0 +1,22 @@
+
+xsquid:UnusedPrivateMethod"GRemove this unused private "getNumberOfElementsForEveryCluster" method.(ÏØß˜şÿÿÿÿ8–†Ëô-
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(Èì·”8åµŸËô-
+Usquid:S36550"7Call "Optional#isPresent()" before accessing the value.(ô×²ë8µÌ…Ëô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(éÓ˜óúÿÿÿÿ8Ø”‡Êô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷¤¿æüÿÿÿÿ8óÛ…Êô-
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(¨‘ÑÛ8ŸƒËô-
+squid:UnusedPrivateMethod"NRemove this unused private "calculateStandardDeviationForEveryCluster" method.(Õ˜üùÿÿÿÿ8–†Ëô-
+‘squid:S1319"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(é­ÆØùÿÿÿÿ
+[
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8§à‹Êô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ÿ†Êô-
+[
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ÊâÌŸøÿÿÿÿ8¶¨øÉô-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿû•Øøÿÿÿÿ8–†Ëô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹³Å¶ûÿÿÿÿ8‘¶úÈô-

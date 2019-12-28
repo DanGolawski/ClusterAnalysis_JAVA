@@ -1,5 +1,6 @@
 
+Xsquid:UnusedPrivateMethod",Remove this unused private "display" method.(†ß¹¬8ÇÑÑÈô-
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(®‰ı¨8¾»ó-
-Usquid:S1135"2Complete the task associated to this TODO comment.(¼Äåªşÿÿÿÿ8æ×¬ó-
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÑş•8ÇÑÑÈô-
+Usquid:S1135"2Complete the task associated to this TODO comment.(¼Äåªşÿÿÿÿ8ÇÑÑÈô-
 dsquid:UselessImportCheck"9Remove this unused import 'dangolawski.services.Globals'.(²³í”8ôÇ»ó-

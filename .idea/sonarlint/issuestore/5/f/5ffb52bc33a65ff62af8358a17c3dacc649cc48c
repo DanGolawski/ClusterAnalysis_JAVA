@@ -1,78 +1,78 @@
 
-ssquid:S00100Ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÑõ¡üÿÿÿÿ8¸ş€œó-
-}squid:S00116I"^Rename this field "standing_tackleMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞâŸ»8”ËÛó-
-psquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëğ8ùçÿ›ó-
-ssquid:S00100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢™Ş¼şÿÿÿÿ8ùçÿ›ó-
-nsquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ùöÑ8¸ş€œó-
-squid:S00116"]Rename this field "preferred_footMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶º¶Íúÿÿÿÿ8¾ïĞó-
-psquid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”æ€8ùçÿ›ó-
-€squid:S00116"\Rename this field "short_passingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒØ§®ùÿÿÿÿ8ÂÏÓó-
-nsquid:S00100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×ê†8ùçÿ›ó-
-vsquid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍ²ÿÿÿÿÿ8ùçÿ›ó-
-vsquid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ƒšâûÿÿÿÿ8ùçÿ›ó-
-}squid:S001163"YRename this field "shot_powerMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑâÖâøÿÿÿÿ8Ñä×ó-
-squid:S00116S"]Rename this field "gk_positioningMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ³Ñüüÿÿÿÿ8øºİó-
 †squid:S00116"bRename this field "defensive_work_rateMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“„€œÿÿÿÿÿ8»òÑó-
-Psquid:S1135"2Complete the task associated to this TODO comment.(‹¿¾é8ë´«ó-
-vsquid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÈêÂûÿÿÿÿ8ùçÿ›ó-
 ssquid:S00100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‘àÌÿÿÿÿÿ8ùçÿ›ó-
-nsquid:S00100Ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üû«Û8ùçÿ›ó-
-osquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üœ®8ùçÿ›ó-
-ssquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Íêşÿÿÿÿ8¸ş€œó-
-vsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‘àÌÿÿÿÿÿ8ùçÿ›ó-
-zsquid:S00116+"[Rename this field "sprint_speedMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓïŞ©8ö¹Öó-
-msquid:S00100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëğ8ùçÿ›ó-
-nsquid:S00100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÎ‰í8ùçÿ›ó-
-squid:S00116%"[Rename this field "long_passingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«õº–ıÿÿÿÿ8ğºÕó-
-squid:S00116'"[Rename this field "ball_controlMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŸĞ–ûÿÿÿÿ8™ëÕó-
-|squid:S00116M"XRename this field "gk_divingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã´äıüÿÿÿÿ8âÉÜó-
-rsquid:S00100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‘ôöùÿÿÿÿ8ùçÿ›ó-
-qsquid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üû«Û8ùçÿ›ó-
-ssquid:S00100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú–¹„şÿÿÿÿ8ùçÿ›ó-
-ssquid:S00100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä–‹×üÿÿÿÿ8ùçÿ›ó-
-nsquid:S00100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ïúø8¸ş€œó-
-nsquid:S00100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”»›8¸ş€œó-
-nsquid:S00100ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–½’à8¸ş€œó-
-vsquid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢™Ş¼şÿÿÿÿ8ùçÿ›ó-
-ssquid:S00100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÎŸºúÿÿÿÿ8¸ş€œó-
-ssquid:S00100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎçÎÈúÿÿÿÿ8¸ş€œó-
 ssquid:S00100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıºıˆûÿÿÿÿ8¸ş€œó-
-xsquid:S00116;"YRename this field "long_shotsMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¹Á’8š†Ùó-
-…squid:S00116#"aRename this field "free_kick_accuracyMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉôÁØüÿÿÿÿ8ÔÕó-
-psquid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢¦É8ùçÿ›ó-
-qsquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×ê†8ùçÿ›ó-
-ssquid:S00100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àí‰şÿÿÿÿ8¸ş€œó-
-ssquid:S00100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£°Ú¿úÿÿÿÿ8ùçÿ›ó-
-ssquid:S00100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ƒšâûÿÿÿÿ8ùçÿ›ó-
-nsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¤©°8¸ş€œó-
-qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÎ‰í8ùçÿ›ó-
-ysquid:S00116O"ZRename this field "gk_handlingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÈŞ©8ÌíÜó-
-†squid:S00116"bRename this field "attacking_work_rateMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‰ÂÛûÿÿÿÿ8Õ³Ñó-
-msquid:S00100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢¦É8ùçÿ›ó-
-ssquid:S00100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍ²ÿÿÿÿÿ8ùçÿ›ó-
-msquid:S00100ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚèßR8ùçÿ›ó-
-ssquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÎŸƒüÿÿÿÿ8¸ş€œó-
-psquid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚèßR8ùçÿ›ó-
-vsquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£°Ú¿úÿÿÿÿ8ùçÿ›ó-
-vsquid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä–‹×üÿÿÿÿ8ùçÿ›ó-
-ssquid:S00100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ì¦Éûÿÿÿÿ8ùçÿ›ó-
-msquid:S00100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”æ€8ùçÿ›ó-
-|squid:S00116"]Rename this field "overall_ratingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ“ä8¿¿Ïó-
-~squid:S00116U"ZRename this field "gk_reflexesMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ÿ‰Æùÿÿÿÿ8Îàİó-
-nsquid:S00100Ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄéÛ8¸ş€œó-
-ssquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú³º¼úÿÿÿÿ8¸ş€œó-
-ssquid:S00100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ’î¦úÿÿÿÿ8¸ş€œó-
-nsquid:S00100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÖ‡’8¸ş€œó-
-vsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú–¹„şÿÿÿÿ8ùçÿ›ó-
-vsquid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚ı¾øÿÿÿÿ8ùçÿ›ó-
+ssquid:S00100ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä–‹×üÿÿÿÿ8ùçÿ›ó-
 usquid:S00117s"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‘ôöùÿÿÿÿ8ùçÿ›ó-
-vsquid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ì¦Éûÿÿÿÿ8ùçÿ›ó-
-}squid:S00116"_Rename this field "heading_accuracyMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÏÕ#8¢Óó-
-xsquid:S00116Q"YRename this field "gk_kickingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø°×ñ8øºİó-
-lsquid:S00100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üœ®8ùçÿ›ó-
-ssquid:S00100÷"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚ı¾øÿÿÿÿ8ùçÿ›ó-
+psquid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚèßR8ùçÿ›ó-
+ssquid:S00100Ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÑõ¡üÿÿÿÿ8¸ş€œó-
 nsquid:S00100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÄ8¸ş€œó-
+psquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëğ8ùçÿ›ó-
+ssquid:S00100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğÎŸºúÿÿÿÿ8¸ş€œó-
+ssquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ÎŸƒüÿÿÿÿ8¸ş€œó-
+nsquid:S00100¤"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ùöÑ8¸ş€œó-
+ssquid:S00100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍ²ÿÿÿÿÿ8ùçÿ›ó-
+osquid:S00117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üœ®8ùçÿ›ó-
+msquid:S00100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”æ€8ùçÿ›ó-
+vsquid:S00117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä–‹×üÿÿÿÿ8ùçÿ›ó-
+msquid:S00100ë"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚèßR8ùçÿ›ó-
+squid:S00116S"]Rename this field "gk_positioningMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ³Ñüüÿÿÿÿ8øºİó-
+squid:S00116'"[Rename this field "ball_controlMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒŸĞ–ûÿÿÿÿ8™ëÕó-
+rsquid:S00100s"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã‘ôöùÿÿÿÿ8ùçÿ›ó-
+vsquid:S00117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú–¹„şÿÿÿÿ8ùçÿ›ó-
+}squid:S00116I"^Rename this field "standing_tackleMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞâŸ»8”ËÛó-
+ssquid:S00100÷"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚ı¾øÿÿÿÿ8ùçÿ›ó-
+vsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·‘àÌÿÿÿÿÿ8ùçÿ›ó-
+vsquid:S00117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÈêÂûÿÿÿÿ8ùçÿ›ó-
+}squid:S00116"_Rename this field "heading_accuracyMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ÏÕ#8¢Óó-
+psquid:S00117w"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢¦É8ùçÿ›ó-
+ssquid:S00100ƒ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ƒšâûÿÿÿÿ8ùçÿ›ó-
+xsquid:S00116Q"YRename this field "gk_kickingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø°×ñ8øºİó-
+}squid:S001163"YRename this field "shot_powerMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑâÖâøÿÿÿÿ8Ñä×ó-
+nsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¤©°8¸ş€œó-
+squid:S00116"]Rename this field "preferred_footMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶º¶Íúÿÿÿÿ8¾ïĞó-
+vsquid:S00117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£°Ú¿úÿÿÿÿ8ùçÿ›ó-
+vsquid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢™Ş¼şÿÿÿÿ8ùçÿ›ó-
+squid:S00116%"[Rename this field "long_passingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«õº–ıÿÿÿÿ8ğºÕó-
+nsquid:S00100Ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”»›8¸ş€œó-
+qsquid:S00117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üû«Û8ùçÿ›ó-
+nsquid:S00100ä"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–½’à8¸ş€œó-
+Psquid:S1135"2Complete the task associated to this TODO comment.(‹¿¾é8ë´«ó-
+vsquid:S00117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ì¦Éûÿÿÿÿ8ùçÿ›ó-
+nsquid:S00100Ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üû«Û8ùçÿ›ó-
+ssquid:S00100ã"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢™Ş¼şÿÿÿÿ8ùçÿ›ó-
+nsquid:S00100Ì"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄéÛ8¸ş€œó-
+|squid:S00116M"XRename this field "gk_divingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã´äıüÿÿÿÿ8âÉÜó-
+ssquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú³º¼úÿÿÿÿ8¸ş€œó-
 nsquid:S00100°"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’‡ûû8¸ş€œó-
-ssquid:S00100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÈêÂûÿÿÿÿ8ùçÿ›ó-
+€squid:S00116"\Rename this field "short_passingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒØ§®ùÿÿÿÿ8ÂÏÓó-
+ssquid:S00100œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎçÎÈúÿÿÿÿ8¸ş€œó-
+qsquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×ê†8ùçÿ›ó-
+vsquid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş‚ı¾øÿÿÿÿ8ùçÿ›ó-
+†squid:S00116"bRename this field "attacking_work_rateMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È‰ÂÛûÿÿÿÿ8Õ³Ñó-
+…squid:S00116#"aRename this field "free_kick_accuracyMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉôÁØüÿÿÿÿ8ÔÕó-
+psquid:S00117o"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”æ€8ùçÿ›ó-
+vsquid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëÍ²ÿÿÿÿÿ8ùçÿ›ó-
+ssquid:S00100”"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ’î¦úÿÿÿÿ8¸ş€œó-
 ssquid:S00100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÔ”œøÿÿÿÿ8¸ş€œó-
+ssquid:S00100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú–¹„şÿÿÿÿ8ùçÿ›ó-
+msquid:S00100§"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ëğ8ùçÿ›ó-
+|squid:S00116"]Rename this field "overall_ratingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ“ä8¿¿Ïó-
+lsquid:S00100e"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(üœ®8ùçÿ›ó-
+nsquid:S00100Ÿ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»×ê†8ùçÿ›ó-
+ssquid:S00100ç"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ì¦Éûÿÿÿÿ8ùçÿ›ó-
+~squid:S00116U"ZRename this field "gk_reflexesMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ÿ‰Æùÿÿÿÿ8Îàİó-
+ssquid:S00100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£°Ú¿úÿÿÿÿ8ùçÿ›ó-
+nsquid:S00100È"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ïúø8¸ş€œó-
+ysquid:S00116O"ZRename this field "gk_handlingMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÈŞ©8ÌíÜó-
+zsquid:S00116+"[Rename this field "sprint_speedMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓïŞ©8ö¹Öó-
+xsquid:S00116;"YRename this field "long_shotsMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼¹Á’8š†Ùó-
+qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÎ‰í8ùçÿ›ó-
 |squid:S00116K"]Rename this field "sliding_tackleMean" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÑ³ë8ÀóÛó-
+ssquid:S00100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÈêÂûÿÿÿÿ8ùçÿ›ó-
+ssquid:S00100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Íêşÿÿÿÿ8¸ş€œó-
+ssquid:S00100ô"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àí‰şÿÿÿÿ8¸ş€œó-
+nsquid:S00100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õÎ‰í8ùçÿ›ó-
+vsquid:S00117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ƒšâûÿÿÿÿ8ùçÿ›ó-
+msquid:S00100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ¢¦É8ùçÿ›ó-
+nsquid:S00100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÓÖ‡’8¸ş€œó-

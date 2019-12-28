@@ -4,25 +4,27 @@ import dangolawski.models.Cluster;
 import dangolawski.models.Player;
 
 import java.lang.reflect.InvocationTargetException;
-import java.util.ArrayList;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 public class ClusteringService {
 
     float previousGroupVariability = 0;
 
-    public void makeClusters(LinkedHashSet<Player> players, Set<Cluster>clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+    public LinkedHashSet<Player> makeClusters(LinkedHashSet<Player> randomlyAsignedPlayers, Set<Cluster>clusters) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         // wyliczenie srodkow ciezkosci
 
+        LinkedHashSet<Player> clusteredPlayers = new LinkedHashSet<>(randomlyAsignedPlayers);
+
         while(true) {
-            calculateMeans(players, clusters);
-            calculateSquaresOfDeviations(players, clusters);
+            calculateMeans(clusteredPlayers, clusters);
+            calculateSquaresOfDeviations(clusteredPlayers, clusters);
             float groupVariability = (float) clusters.stream().mapToDouble(Cluster::getSumOfSquaredDeviations).sum();
             if (groupVariability == previousGroupVariability) break;
             previousGroupVariability = groupVariability;
-            changePlayerClusters(players, clusters);
+            changePlayerClusters(clusteredPlayers, clusters);
         }
+
+        return clusteredPlayers;
     }
 
     private void calculateMeans(LinkedHashSet<Player> players, Set<Cluster> clusters) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
@@ -57,11 +59,22 @@ public class ClusteringService {
 
     }
 
-    private void changePlayerClusters(LinkedHashSet<Player> players, Set<Cluster> clusters) {
-        for(Player player : players){
-
+    private void changePlayerClusters(LinkedHashSet<Player> players1, Set<Cluster> clusters1) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Map<Integer, Float> distances = new HashMap<>();
+        for(Player player : players1) {
+            for(Cluster cluster : clusters1) {
+                distances.put(cluster.getClusterNumber(), calculateDistance(player, cluster));
+            }
+            player.setClusterNumber(Collections.min(distances.entrySet(), Map.Entry.comparingByValue()).getKey());
         }
     }
 
+    private float calculateDistance(Player player, Cluster cluster) throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        float distance = 0;
+        for(String attribute : Globals.playerAttributes) {
+            distance += Math.pow((float) player.getClass().getMethod("get"+attribute).invoke(player) - (float) cluster.getClass().getMethod("get"+attribute+"Mean").invoke(cluster), 2);
+        }
+        return (float) Math.sqrt(distance);
+    }
 
 }

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="" />
+    <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/players202_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dangolawski/players202_test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dangolawski/services/ResultsDisplayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/models/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/ClusteringService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/ClusteringService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/Globals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,22 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ResultsDisplayService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dangolawski/services/Globals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
+            <state relative-caret-position="969">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -36,40 +61,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
+        <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1513">
-              <caret line="98" column="40" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Cluster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3927">
-              <caret line="347" column="21" selection-start-line="347" selection-start-column="21" selection-end-line="347" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dangolawski/services/Globals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -106,6 +104,9 @@
       <find>clusterNumber</find>
       <find>getintercep</find>
       <find>react</find>
+      <find>foot</find>
+      <find>getValueByGetter</find>
+      <find>getagre</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,27 +116,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/dangolawski/players202.csv" />
-        <option value="$PROJECT_DIR$/src/dangolawski/services/Globals.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/models/Player.java" />
-        <option value="$PROJECT_DIR$/src/dangolawski/Main.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" />
+        <option value="$PROJECT_DIR$/src/dangolawski/Main.java" />
+        <option value="$PROJECT_DIR$/src/dangolawski/services/Globals.java" />
+        <option value="$PROJECT_DIR$/src/dangolawski/services/ResultsDisplayService.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,16 +175,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577125146664" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577540851140" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -238,16 +242,18 @@
       <workItem from="1577061286486" duration="115000" />
       <workItem from="1577131636428" duration="3516000" />
       <workItem from="1577447749700" duration="24000" />
+      <workItem from="1577526949599" duration="13438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30550000" />
+    <option name="totallyTimeSpent" value="49491000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1818792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -256,7 +262,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,37 +289,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/players202.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="312" selection-start-column="303" selection-end-column="312" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4420">
           <caret line="260" column="12" lean-forward="true" selection-start-line="260" selection-start-column="12" selection-end-line="260" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="90" column="17" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -333,18 +312,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/Globals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="102">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
+        <state relative-caret-position="969">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="71" selection-start-line="26" selection-start-column="71" selection-end-line="26" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/players202.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="256" lean-forward="true" selection-start-line="7" selection-start-column="256" selection-end-line="7" selection-end-column="256" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="402" column="22" selection-start-line="402" selection-start-column="22" selection-end-line="402" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ResultsDisplayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="94" column="4" selection-start-line="94" selection-start-column="4" selection-end-line="94" selection-end-column="4" />
         </state>
       </provider>
     </entry>
