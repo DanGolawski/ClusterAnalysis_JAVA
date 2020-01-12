@@ -1,5 +1,5 @@
 
 £squid:S1319"„The type of the "randomlyAsignedPlayers" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(¢‹ØÄ8À×±Éô-
-±%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(¢‹ØÄ8À×±Éô-
 gsquid:S3518)"DMake sure "playersCounter" can't be zero before doing this division.(†´¯Ãþÿÿÿÿ8ÃîÊžó-
 ‘squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(¢‹ØÄ8À×±Éô-
+±%squid:RedundantThrowsDeclarationCheck"yRemove the declaration of thrown exception 'java.lang.InstantiationException', as it cannot be thrown from method's body.(¢‹ØÄ8À×±Éô-

@@ -1,0 +1,5 @@
+
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯ˆâø8äæÈù-
+esquid:UselessImportCheck"5Remove this unused import 'java.util.OptionalDouble'.(‰ÀÕÿøÿÿÿÿ8²äÍÈù-
+“squid:S1319"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(æ’™µ8–ËÙÇù-

@@ -1,67 +1,90 @@
 
+“squid:S1319£"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(¡’ö$8æ”¿õô-
+[squid:S3655¦"7Call "Optional#isPresent()" before accessing the value.(ê½ÆŒûÿÿÿÿ8æ”¿õô-
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(Â…Þ¦úÿÿÿÿ8æ”¿õô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(‹³Å¶ûÿÿÿÿ8æ”¿õô-
+\
+squid:S106’"9Replace this use of System.out or System.err by a logger.(Žö˜ïüÿÿÿÿ8òÅæñô-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(»êðÿýÿÿÿÿ8æ”¿õô-
+Vsquid:S3655Å"7Call "Optional#isPresent()" before accessing the value.(ûáôò8æ”¿õô-
+[
+squid:S106N"9Replace this use of System.out or System.err by a logger.(•«þ‘úÿÿÿÿ8æ”¿õô-
 V
-squid:S106I"9Replace this use of System.out or System.err by a logger.(–ä¬í8Â›·âô-
+squid:S106U"9Replace this use of System.out or System.err by a logger.(¿µÍÚ8æ”¿õô-
+W
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(­Åøñ8òÅæñô-
+V
+squid:S106J"9Replace this use of System.out or System.err by a logger.( §ï²8Æ•“âô-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(»êðÿýÿÿÿÿ8óÛ…Êô-
+squid:S106K"9Replace this use of System.out or System.err by a logger.(æ±“Äüÿÿÿÿ8æë•âô-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹³Å¶ûÿÿÿÿ8‘¶úÈô-
-nsquid:S00100‡"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¥¿È8Ÿ˜Œæô-
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(¶ŽÔûÿÿÿÿ8æ”¿õô-
+\
+squid:S106“"9Replace this use of System.out or System.err by a logger.(»›±ÿÿÿÿÿ8æ”¿õô-
+[squid:S3655™"7Call "Optional#isPresent()" before accessing the value.(ê½ÆŒûÿÿÿÿ8æ”¿õô-
+Gsquid:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ”¿õô-
 [
-squid:S106H"9Replace this use of System.out or System.err by a logger.(æ±“Äüÿÿÿÿ8æë•âô-
-[
-squid:S1061"9Replace this use of System.out or System.err by a logger.(Â…Þ¦úÿÿÿÿ8ñéïàô-
-Usquid:S3655Á"7Call "Optional#isPresent()" before accessing the value.(¸æ[8Ÿ˜Œæô-
-[squid:S3655§"7Call "Optional#isPresent()" before accessing the value.(î¡Žüÿÿÿÿ8Ÿ˜Œæô-
-Gsquid:S1148ž"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ˜Œæô-
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ÊâÌŸøÿÿÿÿ8æ”¿õô-
+gsquid:S3518è"CMake sure "playerCounter" can't be zero before doing this division.(À†Äˆúÿÿÿÿ8æ”¿õô-
 U
-squid:S106z"9Replace this use of System.out or System.err by a logger.(»×›8à·¾çô-
+squid:S106M"9Replace this use of System.out or System.err by a logger.(öå–18èà¬äô-
+osquid:S1192"LDefine a constant instead of duplicating this literal "Skupienie " 12 times.(‹³Å¶ûÿÿÿÿ8æ”¿õô-
+\
+squid:S106€"9Replace this use of System.out or System.err by a logger.(’š”Åüÿÿÿÿ8òÅæñô-
+nsquid:S00100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸¥¿È8æ”¿õô-
+U
+squid:S106}"9Replace this use of System.out or System.err by a logger.(»×›8à·¾çô-
 V
-squid:S106|"9Replace this use of System.out or System.err by a logger.(¬Íù8é·Äçô-
-Gsquid:S1148Æ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ˜Œæô-
-[
-squid:S106E"9Replace this use of System.out or System.err by a logger.(ãÛ™±üÿÿÿÿ8Õä…æô-
-Gsquid:S1148¬"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ˜Œæô-
-gsquid:S3518¼"CMake sure "playerCounter" can't be zero before doing this division.(À†Äˆúÿÿÿÿ8Ÿ˜Œæô-
-[
-squid:S106}"9Replace this use of System.out or System.err by a logger.(’š”Åüÿÿÿÿ8„•¿çô-
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬Íù8é·Äçô-
+\
+squid:S106Œ"9Replace this use of System.out or System.err by a logger.(ü˜¿ðøÿÿÿÿ8òÅæñô-
+W
+squid:S106©"9Replace this use of System.out or System.err by a logger.(“ºíé8æ”¿õô-
+\
+squid:S106ˆ"9Replace this use of System.out or System.err by a logger.(ØÀÓçúÿÿÿÿ8æ”¿õô-
 V
-squid:S106M"9Replace this use of System.out or System.err by a logger.(õÏßÈ8Õä…æô-
-[
-squid:S106y"9Replace this use of System.out or System.err by a logger.(óíøÙýÿÿÿÿ8²þ»çô-
-[
-squid:S1069"9Replace this use of System.out or System.err by a logger.(¹ÕÜ­ûÿÿÿÿ8Ï¿­áô-
-[
-squid:S106~"9Replace this use of System.out or System.err by a logger.(¯ÏèÚþÿÿÿÿ8ü¼Ççô-
-[
-squid:S106W"9Replace this use of System.out or System.err by a logger.(¶ŽÔûÿÿÿÿ8Õä…æô-
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8æ”¿õô-
 V
-squid:S106Y"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8Õä…æô-
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8æ”¿õô-
+Gsquid:S1148ž"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ”¿õô-
+[
+squid:S106H"9Replace this use of System.out or System.err by a logger.(ãÛ™±üÿÿÿÿ8æ”¿õô-
+W
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(¶ø³’8òÅæñô-
 V
-squid:S1063"9Replace this use of System.out or System.err by a logger.(„•Àá8Ž‡ïàô-
-esquid:S3518"FMake sure "numberOfElements" can't be zero before doing this division.(Þ –©8Ÿ˜Œæô-
+squid:S106R"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8æ”¿õô-
+Gsquid:S1148ò"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ”¿õô-
+Usquid:S3655í"7Call "Optional#isPresent()" before accessing the value.(¸æ[8æ”¿õô-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(¯ÏèÚþÿÿÿÿ8òÅæñô-
+esquid:S3518»"FMake sure "numberOfElements" can't be zero before doing this division.(Þ –©8æ”¿õô-
+Gsquid:S1148«"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ”¿õô-
 V
-squid:S106O"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8Õä…æô-
+squid:S106L"9Replace this use of System.out or System.err by a logger.(–ä¬í8òÅæñô-
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(ÓŽŒøÿÿÿÿ8æ”¿õô-
+[squid:S3655Ó"7Call "Optional#isPresent()" before accessing the value.(î¡Žüÿÿÿÿ8æ”¿õô-
+Gsquid:S1148Ø"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8æ”¿õô-
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(„•Àá8æ”¿õô-
+V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(æÚ˜ÿ8æ”¿õô-
+[
+squid:S106~"9Replace this use of System.out or System.err by a logger.(Êûæžúÿÿÿÿ8´ Áçô-
+[
+squid:S106<"9Replace this use of System.out or System.err by a logger.(¹ÕÜ­ûÿÿÿÿ8æ”¿õô-
+\
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷‘†’ûÿÿÿÿ8æ”¿õô-
+vsquid:S1192K"SDefine a constant instead of duplicating this literal "wartosc srednia = " 4 times.(æ±“Äüÿÿÿÿ8æ”¿õô-
+[
+squid:S106|"9Replace this use of System.out or System.err by a logger.(óíøÙýÿÿÿÿ8²þ»çô-
 ‘squid:S1319"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(é­ÆØùÿÿÿÿ
+\
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(›—âüúÿÿÿÿ8æ”¿õô-
 V
-squid:S106G"9Replace this use of System.out or System.err by a logger.( §ï²8Æ•“âô-
-osquid:S1192"LDefine a constant instead of duplicating this literal "Skupienie " 12 times.(‹³Å¶ûÿÿÿÿ8®Þûàô-
-[
-squid:S106K"9Replace this use of System.out or System.err by a logger.(•«þ‘úÿÿÿÿ8Õä…æô-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(›—âüúÿÿÿÿ8ü¼Ççô-
+squid:S106P"9Replace this use of System.out or System.err by a logger.(õÏßÈ8æ”¿õô-
 V
-squid:S106R"9Replace this use of System.out or System.err by a logger.(¿µÍÚ8Õä…æô-
-[
-squid:S106!"9Replace this use of System.out or System.err by a logger.(ÓŽŒøÿÿÿÿ8Ø”‡Êô-
-vsquid:S1192H"SDefine a constant instead of duplicating this literal "wartosc srednia = " 4 times.(æ±“Äüÿÿÿÿ8Õä…æô-
-V
-squid:S106;"9Replace this use of System.out or System.err by a logger.(æÚ˜ÿ8º÷¬áô-
-U
-squid:S106J"9Replace this use of System.out or System.err by a logger.(öå–18èà¬äô-
-V
-squid:S106T"9Replace this use of System.out or System.err by a logger.(ÎôÊÆ8Õä…æô-
-[
-squid:S106*"9Replace this use of System.out or System.err by a logger.(ÊâÌŸøÿÿÿÿ8¶¨øÉô-
-[
-squid:S106{"9Replace this use of System.out or System.err by a logger.(Êûæžúÿÿÿÿ8´ Áçô-
-Vsquid:S3655™"7Call "Optional#isPresent()" before accessing the value.(ûáôò8Ÿ˜Œæô-
+squid:S106"9Replace this use of System.out or System.err by a logger.(±ØØ8ªãéñô-

@@ -17,3 +17,7 @@ _
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 a
 1src/dangolawski/services/DataAnalysisService.java,2\b\2b19de28df9e5a352cecf9bcf8f55034b21382a6
+\
+,src/dangolawski/services/DataFixService.java,e\9\e97c0440c3b18005c08b8458f6b8bb37eceb0184
+c
+3src/dangolawski/services/StandarizationService.java,2\f\2f222817bced5594cfcd77c33e7e2ca8c969e08b

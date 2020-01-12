@@ -1,0 +1,5 @@
+
+csquid:S1854"@Remove this useless assignment to local variable "fixedPlayers".(ƒυÿωÿÿÿÿ8Ι½„ττ-
+Tsquid:S1481"1Remove this unused "fixedPlayers" local variable.(ƒυÿωÿÿÿÿ8Ι½„ττ-
+“squid:S1319
+"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ΰυΣ8‹¤€ττ-

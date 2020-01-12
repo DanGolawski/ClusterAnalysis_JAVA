@@ -1,11 +1,13 @@
 
-Tsquid:S1444"6Make this "public static playerAttributes" field final(áÆş8…óüœó-
-;squid:S2386"Make this member "protected".(ş™î°8¡õé€ó-
-"squid:ClassVariableVisibilityCheck"XMake dataFilePath a static final constant or non-public and provide accessors if needed.(İœ¥8…«ıò-
-Psquid:S1444"2Make this "public static dataFilePath" field final(İœ¥8…«ıò-
-‘"squid:ClassVariableVisibilityCheck"\Make playerAttributes a static final constant or non-public and provide accessors if needed.(áÆş8…óüœó-
-@squid:S2386	"Make this member "protected".(íáîÓşÿÿÿÿ8ãßÑğò-
-ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘îÖï8àôÖğò-
-]squid:S1118":Add a private constructor to hide the implicit public one.(ì‰É×øÿÿÿÿ8ãßÑğò-
-™squid:S1319"{The type of the "playerAttributes" object should be an interface such as "List" rather than the implementation "ArrayList".(áÆş8…óüœó-
-;squid:S2386"Make this member "protected".(õñ·­8¡õé€ó-
+Psquid:S1444	"2Make this "public static dataFilePath" field final(İœ¥8…«ıò-
+Tsquid:S1444"6Make this "public static playerAttributes" field final(áÆş8…óüœó-
+Œ"squid:ClassVariableVisibilityCheck"WMake mainCluster a static final constant or non-public and provide accessors if needed.(¹÷8üÅÉóô-
+"squid:ClassVariableVisibilityCheck	"XMake dataFilePath a static final constant or non-public and provide accessors if needed.(İœ¥8…«ıò-
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(‘îÖï8àôÖğò-
+;squid:S2386"Make this member "protected".(ş™î°8¡õé€ó-
+;squid:S2386"Make this member "protected".(õñ·­8¡õé€ó-
+]squid:S1118":Add a private constructor to hide the implicit public one.(ì‰É×øÿÿÿÿ8ãßÑğò-
+@squid:S2386"Make this member "protected".(íáîÓşÿÿÿÿ8ãßÑğò-
+™squid:S1319"{The type of the "playerAttributes" object should be an interface such as "List" rather than the implementation "ArrayList".(áÆş8…óüœó-
+Osquid:S1444"1Make this "public static mainCluster" field final(¹÷8üÅÉóô-
+‘"squid:ClassVariableVisibilityCheck"\Make playerAttributes a static final constant or non-public and provide accessors if needed.(áÆş8…óüœó-

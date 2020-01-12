@@ -4,20 +4,14 @@
     <list default="true" id="3ff4bdf9-e7d2-4a70-b8f1-70e046559908" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/b/1bb0271f20047708eccab4ca18b4d73fc4c21200" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/258fc3a7b7ebfbacb36db2e4eed29e3b3d155962" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b19de28df9e5a352cecf9bcf8f55034b21382a6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b19de28df9e5a352cecf9bcf8f55034b21382a6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/48450ae14fdf39f63a3f817d470789a898b46c18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5ffb52bc33a65ff62af8358a17c3dacc649cc48c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/677d7de9a5a361f84fee1ce6fcfe719eaa707024" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9e4b40a5a86bc7b3e2d3f1d002d9a6aedec8bd73" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c670ee8aee8d549b984d317041f4097d517ec3c6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/META-INF/ClusterAnalysis_JAVA.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/META-INF/ClusterAnalysis_JAVA.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClusterAnalysis_JAVA/dangolawski/services/ResultsDisplayService.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dangolawski/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/models/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/Globals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dangolawski/services/ResultsDisplayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dangolawski/services/DataAnalysisService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataAnalysisService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="209">
+              <caret line="75" column="68" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
+            <state relative-caret-position="372">
+              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,7 +46,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFixService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
+            <state relative-caret-position="255">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -64,8 +58,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="111" selection-start-line="111" selection-end-line="111" />
+            <state relative-caret-position="287">
+              <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dangolawski/services/StandarizationService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dangolawski/players202.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1887">
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -73,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="209">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,52 +100,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1387">
-              <caret line="255" column="28" selection-start-line="255" selection-start-column="28" selection-end-line="255" selection-end-column="28" />
+            <state relative-caret-position="-1802">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#12530#12531#0" expanded="true" />
                 <element signature="e#12566#12567#0" expanded="true" />
+                <element signature="e#12603#12604#0" expanded="true" />
                 <element signature="e#12636#12637#0" expanded="true" />
+                <element signature="e#12676#12677#0" expanded="true" />
                 <element signature="e#12713#12714#0" expanded="true" />
+                <element signature="e#12748#12749#0" expanded="true" />
                 <element signature="e#12780#12781#0" expanded="true" />
+                <element signature="e#12820#12821#0" expanded="true" />
                 <element signature="e#12857#12858#0" expanded="true" />
+                <element signature="e#12902#12903#0" expanded="true" />
                 <element signature="e#12944#12945#0" expanded="true" />
+                <element signature="e#12989#12990#0" expanded="true" />
                 <element signature="e#13031#13032#0" expanded="true" />
+                <element signature="e#13065#13066#0" expanded="true" />
                 <element signature="e#13096#13097#0" expanded="true" />
+                <element signature="e#13131#13132#0" expanded="true" />
                 <element signature="e#13163#13164#0" expanded="true" />
+                <element signature="e#13205#13206#0" expanded="true" />
                 <element signature="e#13244#13245#0" expanded="true" />
+                <element signature="e#13283#13284#0" expanded="true" />
                 <element signature="e#13319#13320#0" expanded="true" />
+                <element signature="e#13352#13353#0" expanded="true" />
                 <element signature="e#13382#13383#0" expanded="true" />
+                <element signature="e#13417#13418#0" expanded="true" />
                 <element signature="e#13449#13450#0" expanded="true" />
+                <element signature="e#13480#13481#0" expanded="true" />
                 <element signature="e#13508#13509#0" expanded="true" />
+                <element signature="e#13552#13553#0" expanded="true" />
                 <element signature="e#13593#13594#0" expanded="true" />
+                <element signature="e#13631#13632#0" expanded="true" />
                 <element signature="e#13666#13667#0" expanded="true" />
+                <element signature="e#13704#13705#0" expanded="true" />
                 <element signature="e#13739#13740#0" expanded="true" />
+                <element signature="e#13777#13778#0" expanded="true" />
                 <element signature="e#13812#13813#0" expanded="true" />
+                <element signature="e#13850#13851#0" expanded="true" />
                 <element signature="e#13885#13886#0" expanded="true" />
+                <element signature="e#13920#13921#0" expanded="true" />
                 <element signature="e#13952#13953#0" expanded="true" />
+                <element signature="e#13985#13986#0" expanded="true" />
                 <element signature="e#14015#14016#0" expanded="true" />
+                <element signature="e#14051#14052#0" expanded="true" />
                 <element signature="e#14084#14085#0" expanded="true" />
+                <element signature="e#14117#14118#0" expanded="true" />
                 <element signature="e#14147#14148#0" expanded="true" />
+                <element signature="e#14180#14181#0" expanded="true" />
                 <element signature="e#14210#14211#0" expanded="true" />
+                <element signature="e#14244#14245#0" expanded="true" />
                 <element signature="e#14275#14276#0" expanded="true" />
+                <element signature="e#14311#14312#0" expanded="true" />
                 <element signature="e#14344#14345#0" expanded="true" />
+                <element signature="e#14380#14381#0" expanded="true" />
                 <element signature="e#14413#14414#0" expanded="true" />
+                <element signature="e#14452#14453#0" expanded="true" />
                 <element signature="e#14488#14489#0" expanded="true" />
+                <element signature="e#14525#14526#0" expanded="true" />
                 <element signature="e#14559#14560#0" expanded="true" />
+                <element signature="e#14591#14592#0" expanded="true" />
                 <element signature="e#14620#14621#0" expanded="true" />
+                <element signature="e#14655#14656#0" expanded="true" />
                 <element signature="e#14687#14688#0" expanded="true" />
+                <element signature="e#14720#14721#0" expanded="true" />
                 <element signature="e#14750#14751#0" expanded="true" />
+                <element signature="e#14791#14792#0" expanded="true" />
                 <element signature="e#14829#14830#0" expanded="true" />
+                <element signature="e#14864#14865#0" expanded="true" />
                 <element signature="e#14896#14897#0" expanded="true" />
+                <element signature="e#14933#14934#0" expanded="true" />
                 <element signature="e#14967#14968#0" expanded="true" />
+                <element signature="e#15003#15004#0" expanded="true" />
                 <element signature="e#15036#15037#0" expanded="true" />
+                <element signature="e#15076#15077#0" expanded="true" />
                 <element signature="e#15113#15114#0" expanded="true" />
+                <element signature="e#15150#15151#0" expanded="true" />
                 <element signature="e#15184#15185#0" expanded="true" />
+                <element signature="e#15216#15217#0" expanded="true" />
                 <element signature="e#15245#15246#0" expanded="true" />
+                <element signature="e#15277#15278#0" expanded="true" />
                 <element signature="e#15306#15307#0" expanded="true" />
+                <element signature="e#15335#15336#0" expanded="true" />
                 <element signature="e#15361#15362#0" expanded="true" />
+                <element signature="e#15394#15395#0" expanded="true" />
                 <element signature="e#15424#15425#0" expanded="true" />
+                <element signature="e#15464#15465#0" expanded="true" />
                 <element signature="e#15501#15502#0" expanded="true" />
               </folding>
             </state>
@@ -175,6 +233,7 @@
       <find>overa</find>
       <find>setatta</find>
       <find>setat</find>
+      <find>max</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,16 +247,17 @@
         <option value="$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/Globals.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/models/Cluster.java" />
-        <option value="$PROJECT_DIR$/src/dangolawski/Main.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/models/Player.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/DataFixService.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/DataFactory.java" />
         <option value="$PROJECT_DIR$/src/dangolawski/services/DataAnalysisService.java" />
+        <option value="$PROJECT_DIR$/src/dangolawski/services/StandarizationService.java" />
+        <option value="$PROJECT_DIR$/src/dangolawski/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="-9" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -209,8 +269,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,12 +305,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577573159129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578825023961" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -314,18 +374,20 @@
       <workItem from="1577131636428" duration="3516000" />
       <workItem from="1577447749700" duration="24000" />
       <workItem from="1577526949599" duration="17032000" />
-      <workItem from="1577558110107" duration="7507000" />
+      <workItem from="1577558110107" duration="8732000" />
+      <workItem from="1577630250625" duration="239000" />
+      <workItem from="1578819042075" duration="5774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60592000" />
+    <option name="totallyTimeSpent" value="67830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1852349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -334,7 +396,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7705383" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,6 +418,38 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19060403" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4986577" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5013423" side_tool="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -385,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/players202.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/Globals.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -409,90 +496,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="28" column="81" selection-start-line="28" selection-start-column="81" selection-end-line="28" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1387">
-          <caret line="255" column="28" selection-start-line="255" selection-start-column="28" selection-end-line="255" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#12566#12567#0" expanded="true" />
-            <element signature="e#12636#12637#0" expanded="true" />
-            <element signature="e#12713#12714#0" expanded="true" />
-            <element signature="e#12780#12781#0" expanded="true" />
-            <element signature="e#12857#12858#0" expanded="true" />
-            <element signature="e#12944#12945#0" expanded="true" />
-            <element signature="e#13031#13032#0" expanded="true" />
-            <element signature="e#13096#13097#0" expanded="true" />
-            <element signature="e#13163#13164#0" expanded="true" />
-            <element signature="e#13244#13245#0" expanded="true" />
-            <element signature="e#13319#13320#0" expanded="true" />
-            <element signature="e#13382#13383#0" expanded="true" />
-            <element signature="e#13449#13450#0" expanded="true" />
-            <element signature="e#13508#13509#0" expanded="true" />
-            <element signature="e#13593#13594#0" expanded="true" />
-            <element signature="e#13666#13667#0" expanded="true" />
-            <element signature="e#13739#13740#0" expanded="true" />
-            <element signature="e#13812#13813#0" expanded="true" />
-            <element signature="e#13885#13886#0" expanded="true" />
-            <element signature="e#13952#13953#0" expanded="true" />
-            <element signature="e#14015#14016#0" expanded="true" />
-            <element signature="e#14084#14085#0" expanded="true" />
-            <element signature="e#14147#14148#0" expanded="true" />
-            <element signature="e#14210#14211#0" expanded="true" />
-            <element signature="e#14275#14276#0" expanded="true" />
-            <element signature="e#14344#14345#0" expanded="true" />
-            <element signature="e#14413#14414#0" expanded="true" />
-            <element signature="e#14488#14489#0" expanded="true" />
-            <element signature="e#14559#14560#0" expanded="true" />
-            <element signature="e#14620#14621#0" expanded="true" />
-            <element signature="e#14687#14688#0" expanded="true" />
-            <element signature="e#14750#14751#0" expanded="true" />
-            <element signature="e#14829#14830#0" expanded="true" />
-            <element signature="e#14896#14897#0" expanded="true" />
-            <element signature="e#14967#14968#0" expanded="true" />
-            <element signature="e#15036#15037#0" expanded="true" />
-            <element signature="e#15113#15114#0" expanded="true" />
-            <element signature="e#15184#15185#0" expanded="true" />
-            <element signature="e#15245#15246#0" expanded="true" />
-            <element signature="e#15306#15307#0" expanded="true" />
-            <element signature="e#15361#15362#0" expanded="true" />
-            <element signature="e#15424#15425#0" expanded="true" />
-            <element signature="e#15501#15502#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFixService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        <state relative-caret-position="287">
+          <caret line="110" column="16" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/ClusteringService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="209">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -501,8 +515,141 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataAnalysisService.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="75" column="68" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/services/DataFixService.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/models/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1802">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#12530#12531#0" expanded="true" />
+            <element signature="e#12566#12567#0" expanded="true" />
+            <element signature="e#12603#12604#0" expanded="true" />
+            <element signature="e#12636#12637#0" expanded="true" />
+            <element signature="e#12676#12677#0" expanded="true" />
+            <element signature="e#12713#12714#0" expanded="true" />
+            <element signature="e#12748#12749#0" expanded="true" />
+            <element signature="e#12780#12781#0" expanded="true" />
+            <element signature="e#12820#12821#0" expanded="true" />
+            <element signature="e#12857#12858#0" expanded="true" />
+            <element signature="e#12902#12903#0" expanded="true" />
+            <element signature="e#12944#12945#0" expanded="true" />
+            <element signature="e#12989#12990#0" expanded="true" />
+            <element signature="e#13031#13032#0" expanded="true" />
+            <element signature="e#13065#13066#0" expanded="true" />
+            <element signature="e#13096#13097#0" expanded="true" />
+            <element signature="e#13131#13132#0" expanded="true" />
+            <element signature="e#13163#13164#0" expanded="true" />
+            <element signature="e#13205#13206#0" expanded="true" />
+            <element signature="e#13244#13245#0" expanded="true" />
+            <element signature="e#13283#13284#0" expanded="true" />
+            <element signature="e#13319#13320#0" expanded="true" />
+            <element signature="e#13352#13353#0" expanded="true" />
+            <element signature="e#13382#13383#0" expanded="true" />
+            <element signature="e#13417#13418#0" expanded="true" />
+            <element signature="e#13449#13450#0" expanded="true" />
+            <element signature="e#13480#13481#0" expanded="true" />
+            <element signature="e#13508#13509#0" expanded="true" />
+            <element signature="e#13552#13553#0" expanded="true" />
+            <element signature="e#13593#13594#0" expanded="true" />
+            <element signature="e#13631#13632#0" expanded="true" />
+            <element signature="e#13666#13667#0" expanded="true" />
+            <element signature="e#13704#13705#0" expanded="true" />
+            <element signature="e#13739#13740#0" expanded="true" />
+            <element signature="e#13777#13778#0" expanded="true" />
+            <element signature="e#13812#13813#0" expanded="true" />
+            <element signature="e#13850#13851#0" expanded="true" />
+            <element signature="e#13885#13886#0" expanded="true" />
+            <element signature="e#13920#13921#0" expanded="true" />
+            <element signature="e#13952#13953#0" expanded="true" />
+            <element signature="e#13985#13986#0" expanded="true" />
+            <element signature="e#14015#14016#0" expanded="true" />
+            <element signature="e#14051#14052#0" expanded="true" />
+            <element signature="e#14084#14085#0" expanded="true" />
+            <element signature="e#14117#14118#0" expanded="true" />
+            <element signature="e#14147#14148#0" expanded="true" />
+            <element signature="e#14180#14181#0" expanded="true" />
+            <element signature="e#14210#14211#0" expanded="true" />
+            <element signature="e#14244#14245#0" expanded="true" />
+            <element signature="e#14275#14276#0" expanded="true" />
+            <element signature="e#14311#14312#0" expanded="true" />
+            <element signature="e#14344#14345#0" expanded="true" />
+            <element signature="e#14380#14381#0" expanded="true" />
+            <element signature="e#14413#14414#0" expanded="true" />
+            <element signature="e#14452#14453#0" expanded="true" />
+            <element signature="e#14488#14489#0" expanded="true" />
+            <element signature="e#14525#14526#0" expanded="true" />
+            <element signature="e#14559#14560#0" expanded="true" />
+            <element signature="e#14591#14592#0" expanded="true" />
+            <element signature="e#14620#14621#0" expanded="true" />
+            <element signature="e#14655#14656#0" expanded="true" />
+            <element signature="e#14687#14688#0" expanded="true" />
+            <element signature="e#14720#14721#0" expanded="true" />
+            <element signature="e#14750#14751#0" expanded="true" />
+            <element signature="e#14791#14792#0" expanded="true" />
+            <element signature="e#14829#14830#0" expanded="true" />
+            <element signature="e#14864#14865#0" expanded="true" />
+            <element signature="e#14896#14897#0" expanded="true" />
+            <element signature="e#14933#14934#0" expanded="true" />
+            <element signature="e#14967#14968#0" expanded="true" />
+            <element signature="e#15003#15004#0" expanded="true" />
+            <element signature="e#15036#15037#0" expanded="true" />
+            <element signature="e#15076#15077#0" expanded="true" />
+            <element signature="e#15113#15114#0" expanded="true" />
+            <element signature="e#15150#15151#0" expanded="true" />
+            <element signature="e#15184#15185#0" expanded="true" />
+            <element signature="e#15216#15217#0" expanded="true" />
+            <element signature="e#15245#15246#0" expanded="true" />
+            <element signature="e#15277#15278#0" expanded="true" />
+            <element signature="e#15306#15307#0" expanded="true" />
+            <element signature="e#15335#15336#0" expanded="true" />
+            <element signature="e#15361#15362#0" expanded="true" />
+            <element signature="e#15394#15395#0" expanded="true" />
+            <element signature="e#15424#15425#0" expanded="true" />
+            <element signature="e#15464#15465#0" expanded="true" />
+            <element signature="e#15501#15502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/services/StandarizationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="20" column="96" selection-start-line="20" selection-start-column="96" selection-end-line="20" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/players202.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1887">
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dangolawski/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

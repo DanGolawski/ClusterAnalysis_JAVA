@@ -1,5 +1,7 @@
 
 V
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÚÑş•8ÇÑÑÈô-
-Xsquid:UnusedPrivateMethod",Remove this unused private "display" method.(†ß¹¬8ÇÑÑÈô-
-Usquid:S1135"2Complete the task associated to this TODO comment.(¼Äåªşÿÿÿÿ8ÇÑÑÈô-
+squid:S106""9Replace this use of System.out or System.err by a logger.(ÚÑş•8ÇÑÑÈô-
+Xsquid:UnusedPrivateMethod!",Remove this unused private "display" method.(†ß¹¬8ÇÑÑÈô-
+gsquid:S1854"IRemove this useless assignment to local variable "standarizationService".(Ì–ôÚ8ğ´Êù-
+Xsquid:S1481":Remove this unused "standarizationService" local variable.(Ì–ôÚ8ğ´Êù-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(™ƒŞ¿ıÿÿÿÿ8ğ´Êù-

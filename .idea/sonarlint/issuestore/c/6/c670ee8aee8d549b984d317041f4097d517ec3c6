@@ -1,11 +1,14 @@
 
+nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(õîÚþÿÿÿÿ8ž•Âžó-
+gsquid:S3518z"DMake sure "elementCounter" can't be zero before doing this division.(¬ãóžøÿÿÿÿ8ä«ðóô-
+˜squid:S1319i"uThe type of the "objects" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âžó-
+–squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ˆÍÙùÿÿÿÿ8¬â·›ó-
+^squid:S1854U"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8¬â·›ó-
+Tsquid:S2696p"6Make the enclosing method "static" or remove this set.(Ö¥‘8©Úõóô-
+osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãþÿÿÿÿ8¬â·›ó-
+jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ò£ˆýò-
+“squid:S1319o"uThe type of the "players" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(íÔ­É8žÍÜóô-
+;squid:S2119/"Save and re-use this "Random".(¼ÝÅf8¬â·›ó-
+Tsquid:S2696Z"6Make the enclosing method "static" or remove this set.(¬–¡…8 ¼Œó-
 –squid:S1319i"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âžó-
 ‚squid:S1149H"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ôÑÌðøÿÿÿÿ8¬â·›ó-
-–squid:S1319"sThe return type of this method should be an interface such as "Set" rather than the implementation "LinkedHashSet".(ˆÍÙùÿÿÿÿ8¬â·›ó-
-nsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(õîÚþÿÿÿÿ8ž•Âžó-
-osquid:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¾šÕãþÿÿÿÿ8¬â·›ó-
-;squid:S2119/"Save and re-use this "Random".(¼ÝÅf8¬â·›ó-
-jsquid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8Ò£ˆýò-
-˜squid:S1319i"uThe type of the "objects" object should be an interface such as "Set" rather than the implementation "LinkedHashSet".(Ñ·¤±ùÿÿÿÿ8Ù¿Âžó-
-^squid:S1854U"@Remove this useless assignment to local variable "elementIndex".(Ÿó£¸8¬â·›ó-
-Tsquid:S2696Z"6Make the enclosing method "static" or remove this set.(¬–¡…8 ¼Œó-
